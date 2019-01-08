@@ -1,0 +1,452 @@
+#center{
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+    font-size: 18px;
+    color: darkred;
+}
+    img {
+    width: 100%;
+}
+
+body {
+    margin: 0%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+
+    font-family: raleway;
+}
+
+h2 {
+    font-family: raleway;
+}
+
+h3 {
+    font-family: raleway;
+}
+
+p {
+    font-family: raleway;
+}
+
+a {
+    font-family: raleway;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/************* HEADER/NAV *************/
+
+header {
+    background-color: rgba(0, 0, 0, 0.30);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: visible;
+    position: relative;
+    z-index: 1;
+}
+
+nav {
+    margin-top: 13px
+}
+
+nav a {
+    text-decoration: none;
+    color: chocolate;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: #272727;
+    background-color: chocolate;
+    border-radius: 5px;
+}
+
+header h2 {
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 800px) {
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    nav a {
+        font-size: 1.5rem
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+}
+
+/************* VIDEO *************/
+
+#video {
+    max-width: none;
+}
+
+/************* RING *************/
+
+.ringbg {
+    background-color: #272727;
+    margin-top: -5px;
+}
+
+.knap {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.knap a {
+    text-decoration: none;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    padding: 8px;
+    color: chocolate;
+    font-size: 1.2rem
+}
+
+.knap a:hover {
+    color: #272727;
+    background-color: #d2691e;
+}
+
+#ring .tekst {
+    text-align: center;
+    padding: 40px;
+    color: lightgray;
+}
+
+#ring .tekst h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+/************* OM *************/
+
+#om .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: center;
+}
+
+#om .column {
+    flex-grow: 1;
+    flex-basis: 350px;
+}
+
+#om .billede {}
+
+#om .tekst h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+@media only screen and (min-width: 620px) {
+    #om .tekst {
+        padding-left: 40px;
+    }
+}
+
+/************* Ydelser *************/
+
+.ydbg {
+    background-color: #e2e2e2;
+
+}
+
+#ydelser .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: center;
+}
+
+#ydelser .sectionwrapper h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+
+#ydelser .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 300px;
+    width: 100%px;
+    text-align: center;
+    justify-content: flex-end;
+    flex-grow: 1;
+    flex-basis: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.box img {
+    width: 150px
+}
+
+.box p {
+    margin: 1rem
+}
+
+@media only screen and (min-width: 620px) {
+    .box {
+        flex-grow: 1;
+        flex-basis: 150px;
+    }
+}
+
+
+
+/************* Galleri *************/
+
+.gabg {
+    background-color: white;
+    padding: 40px
+}
+
+#galleri .sectionwrapper {
+    text-align: center;
+}
+
+.gatekst h1 {
+    font-size: 2rem;
+    font-weight: 900;
+
+}
+
+.gaknap {
+    padding: 40px;
+}
+
+.gaknap a {
+    text-decoration: none;
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    padding: 8px;
+    color: chocolate;
+    font-size: 1.2rem
+}
+
+.gaknap a:hover {
+    color: white;
+    background-color: chocolate;
+}
+/************* Kontakt ***************/
+#kontakt{
+    padding: 2px;
+    font-size: 25px;
+    color: chocolate;
+    background-color: #272727;
+    text-align: center;
+    font-weight: 300;
+    max-width: 100%;
+}
+#contact-form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: 400;
+    cursor: pointer;
+}
+
+textarea,
+input {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    text-align: center;
+    background: none;
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 1);
+    max-width: 90%;
+    padding: 1rem;
+    border: 2px dashed rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    cursor: text;
+}
+
+textarea {
+    text-align: left;
+    /* overflow:hidden; */
+
+    resize: none;
+    width: 90%;
+    border-color: rgba(255, 255, 255, 0)
+}
+
+textarea:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px dashed rgba(255, 255, 255, 1);
+}
+
+textarea:focus:required:valid {
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+textarea:required:valid {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+input {
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+input:required,
+textarea:required {
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+input:focus {
+    border-bottom: 2px dashed rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+input:required:valid {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+input:required:invalid {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic;
+    font-weight: 400;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic;
+    font-weight: 400;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic;
+    font-weight: 400;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic;
+    font-weight: 400;
+}
+
+.expanding {
+    vertical-align: top;
+}
+
+.send-icn {
+    fill: chocolate;
+}
+
+.send-icn:hover {
+    fill: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+    margin: 2vmax;
+}
+
+button:hover small {
+    opacity: 1;
+}
+
+small {
+    display: block;
+    opacity: 0;
+}
+
+
+
+/************* FOOTER *************/
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-image: url(wood.jpeg);
+    padding: 40px;
+
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+footer div {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+}
+
+@media only screen and (min-width: 620px) {
+    footer {
+        display: flex;
+        align-items: center
+    }
+}
+
+/************* GALLERISIDE *************/
+
+#images {
+    text-align: center;
+}
+
+.image {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image img {
+    flex-basis: 250px;
+    flex-grow: 1;
+    width: 250px
+}
