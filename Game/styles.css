@@ -1,0 +1,535 @@
+* {
+    -webkit-user-select: none;
+    /* Safari 3.1+ */
+    -moz-user-select: none;
+    /* Firefox 2+ */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Standard syntax */
+}
+
+:root {
+    font-size: 2vw;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    margin-top: 2em;
+    padding-top: 2em;
+}
+
+#screen {
+    width: 80vw;
+    height: 45vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+
+    /*  touch-action: none;*/
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* ********   START   ******** */
+
+#game_background {
+    position: absolute;
+    width: 80vw;
+    height: 45vw;
+    background-image: url(SVG/play.svg);
+    z-index: 1;
+
+}
+
+#start {
+    position: absolute;
+    width: 80vw;
+    height: 45vw;
+    background-image: url(SVG/blueSky.svg);
+    background-size: 100%;
+    z-index: 1;
+
+}
+
+#play {
+    position: absolute;
+    width: 19vw;
+    height: 20.2vw;
+    left: 32vw;
+    top: 8vw;
+    background-image: url(java.png);
+    cursor: pointer;
+    background-size: 100%;
+    z-index: ;
+
+}
+/* ********   Game Over   ******** */
+#tildeGif {
+    width: 30%;
+    height: 68%;
+    background-image: url("TildeGiff.png");
+    z-index: 1;
+    left: 10vw;
+    bottom: 0vw;
+    background-size: 100%;
+    /*den skal kun ske en gang */
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-size: 1300% 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.silly {
+    /*kalder på animationen*/
+    animation-name: silly_kf;
+    animation-duration: 6s;
+    /*delay*/
+    /*Den skal blive i hver ende*/
+    /*Hvor mange steps er der, man tæller ikke det første med*/
+    animation-timing-function: steps(12);
+    animation-direction: alternate;
+}
+
+@keyframes silly_kf {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: -1200%;
+    }
+}
+
+/*   from {background-position: 0%;}
+    to {background-position: -2600%;}
+}*/
+
+/******** ballon *************/
+#ballon {
+
+    width: 17%;
+    height: 30%;
+    background-image: url("ballon.png");
+    z-index: 1;
+    background-size: 100%;
+    /*den skal kun ske en gang */
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+}
+
+.swirl {
+    position: absolute;
+    cursor: crosshair;
+    z-index: 1;
+    animation-delay: 18s;
+}
+
+/*@keyframes fontbulger {
+  0% {
+    font-size: 10px;
+     from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  }
+  30% {
+    font-size: 15px;
+  }
+  100% {
+    font-size: 12px;
+  }
+}*/
+
+/*********** SVG *********/
+
+
+#gameover {
+    position: absolute;
+    width: 80vw;
+    height: 45vw;
+    background-image: url(redPort.png);
+    background-size: 100%;
+    z-index: 1;
+    top: 0px !important;
+
+}
+
+#newGame {
+    position: absolute;
+    width: 19vw;
+    height: 12.2vw;
+    left: 30vw;
+    top: 13vw;
+    background-image: url(KnapPortfolio.png);
+    cursor: pointer;
+    background-size: 100%;
+
+}
+
+/*************Stone***********/
+
+.stone {
+    position: absolute;
+    cursor: crosshair;
+    z-index: 1;
+    width: 8vw;
+    height: 12vw;
+    background-size: 100%;
+    z-index: ;
+}
+
+#stone0 {
+    animation-delay: -1s;
+    background-image: url(UI/SVG/ball1.svg);
+}
+
+#stone1 {
+    background-image: url(UI/SVG/ball2.svg);
+    animation-delay: 4s;
+}
+
+#stone2 {
+    background-image: url(UI/SVG/ball3.svg);
+    animation-delay: 7s;
+}
+
+#stone3 {
+    background-image: url(UI/SVG/ball4.svg);
+    animation-delay: -1s;
+}
+
+#stone4 {
+    background-image: url(UI/SVG/ball5.svg);
+
+    animation-delay: 6s;
+}
+
+#stone5 {
+    background-image: url(UI/SVG/ball6.svg);
+    animation-delay: 2s;
+}
+
+#stone6 {
+    background-image: url(UI/SVG/ball7.svg);
+    animation-delay: 9s;
+}
+
+#stone7 {
+    background-image: url(UI/SVG/ball8.svg);
+    animation-delay: 5s;
+}
+
+#stone8 {
+    background-image: url(UI/SVG/ball9.svg);
+    animation-delay: -2s;
+}
+
+#stone9 {
+    background-image: url(UI/SVG/ball10.svg);
+    animation-delay: 7s;
+}
+
+#stone10 {
+    background-image: url(UI/SVG/ball11.svg);
+    animation-delay: 2s;
+}
+
+#stone11 {
+    background-image: url(UI/SVG/ball12.svg);
+    animation-delay: 1s;
+}
+
+#stone12 {
+    background-image: url(UI/SVG/ball13.svg);
+    animation-delay: 9s;
+}
+
+#stone13 {
+    background-image: url(UI/SVG/ball14.svg);
+    animation-delay: 8s;
+}
+
+#stone14 {
+    background-image: url(UI/SVG/ball15.svg);
+    animation-delay: 3s;
+}
+
+#stone15 {
+    background-image: url(UI/SVG/ball16.svg);
+    animation-delay: 2s;
+}
+
+#stone16 {
+    background-image: url(UI/SVG/ball17.svg);
+    animation-delay: 5s;
+}
+
+#stone17 {
+    background-image: url(UI/SVG/ball18.svg);
+    animation-delay: 1s;
+}
+
+#stone18 {
+    background-image: url(UI/SVG/ball19.svg);
+    animation-delay: 7s;
+}
+
+#stone19 {
+    background-image: url(UI/SVG/ball20.svg);
+    animation-delay: 6s;
+}
+
+#stone20 {
+    background-image: url(UI/SVG/ball11.svg);
+    animation-delay: 3s;
+}
+
+#stone21 {
+    background-image: url(UI/SVG/ball12.svg);
+    animation-delay: 10s;
+}
+
+#stone22 {
+    background-image: url(UI/SVG/ball13.svg);
+    animation-delay: 1s;
+}
+
+.pos0 {
+    left: 3vw;
+}
+
+.pos1 {
+    left: 70vw;
+}
+
+.pos2 {
+    left: 15vw;
+}
+
+.pos3 {
+    left: 55vw;
+}
+
+.pos4 {
+    left: 35vw;
+}
+
+.pos5 {
+    left: 45vw;
+}
+
+.pos6 {
+    left: 65vw;
+}
+
+.pos7 {
+    left: 20vw;
+}
+
+.pos8 {
+    left: 63vw;
+}
+
+.pos9 {
+    left: 57vw;
+}
+
+.pos10 {
+    left: 25vw;
+}
+
+.pos11 {
+    left: 23vw;
+}
+
+/* effekter */
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+.blur {
+    filter: blur(5px) brightness(80%);
+
+}
+
+.fade_out {
+    animation-name: fadeout_kf;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeout_kf {
+    0% {
+        opacity: 1oo;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.faded_out {
+    animation-name: fadeout_kf;
+    animation-duration: 7.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadedout_kf {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 1.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes pulse_kf {
+    0% {
+        transform: scale(1.21);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* animationer */
+.paused {
+    animation-play-state: paused;
+}
+
+
+.falling {
+    animation-name: falling_kf;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    /* sikr at vi altid er uden for skærmen, hvis animationen er delayet */
+    top: -10vw;
+}
+
+@keyframes falling_kf {
+    from {
+        top: -10vw;
+    }
+
+    to {
+        top: 60vw;
+    }
+}
+
+.raising {
+    animation-name: raising_kf;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    /* sikr at vi altid er uden for skærmen, hvis animationen er delayet */
+    top: -50vw;
+}
+
+@keyframes raising_kf {
+    from {
+        top: 60vw;
+    }
+
+    to {
+        top: -10vw;
+    }
+}
+
+.dissappear {
+    animation-name: dissappear_kf;
+    animation-duration: .7s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(.59, -0.56, .77, 1.34);
+    animation-fill-mode: forwards;
+}
+
+@keyframes dissappear_kf {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0);
+    }
+}
+
+.explode {
+    animation-name: explode_kf;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+}
+
+@keyframes explode_kf {
+    from {
+        transform: translate(-55vw, -55vw) scale(.1) rotate(0);
+    }
+
+    to {
+        transform: translate(-55vw, -55vw) scale(3) rotate(-30deg);
+    }
+}
+
+.shake {
+    /*  background-color: red;*/
+    width: 20vw;
+    height: 16.25vw;
+
+    animation-name: shake_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes shake_kf {
+    0% {
+        background-color: transparent;
+        transform: rotate(0) scale(1);
+    }
+
+    10% {
+        background-color: rgba(255, 246, 27, 0.7);
+        transform: rotate(-2deg) scale(1.5);
+    }
+
+    50% {
+        background-color: rgba(255, 165, 0, 0.7);
+        transform: rotate(5deg) scale(1.5);
+    }
+
+    100% {
+        background-color: rgba(255, 0, 0, 0.7);
+        transform: rotate(-5deg) scale(1.5);
+    }
+}
