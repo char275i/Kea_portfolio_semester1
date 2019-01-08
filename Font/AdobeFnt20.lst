@@ -1,0 +1,1549 @@
+%!Adobe-FontList 1.20
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Ultra\LICENSE.txt
+FileModTime:1304888400
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Ultra-Regular
+FamilyName:Ultra
+StyleName:Regular
+FullName:Ultra Regular
+MenuName:Ultra
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Ultra\Ultra-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:52472
+FileModTime:1304888400
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Ultra Regular
+NameArray:0,Win,1,Ultra
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:UbuntuCondensed-Regular
+FamilyName:Ubuntu Condensed
+StyleName:Regular
+FullName:Ubuntu Condensed
+MenuName:Ubuntu Condensed
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Ubuntu_Condensed\UbuntuCondensed-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:350444
+FileModTime:1317762000
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Ubuntu Condensed
+NameArray:0,Mac,4,Ubuntu Condensed
+NameArray:0,Win,1,Ubuntu Condensed
+NameArray:0,Win,16,Ubuntu Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Ubuntu_Condensed\UFL.txt
+FileModTime:1317762000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Serif\OFL.txt
+FileModTime:1297206000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-Bold
+FamilyName:PT Serif
+StyleName:Bold
+FullName:PT Serif Bold
+MenuName:PT Serif
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Serif\PT_Serif-Web-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:339996
+FileModTime:1297206000
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,PT Serif Bold
+NameArray:0,Mac,4,PT Serif Bold
+NameArray:0,Win,1,PT Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-BoldItalic
+FamilyName:PT Serif
+StyleName:Bold Italic
+FullName:PT Serif Bold Italic
+MenuName:PT Serif
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Serif\PT_Serif-Web-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:337580
+FileModTime:1297206000
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,18,PT Serif Bold Italic
+NameArray:0,Mac,4,PT Serif Bold Italic
+NameArray:0,Win,1,PT Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-Italic
+FamilyName:PT Serif
+StyleName:Italic
+FullName:PT Serif Italic
+MenuName:PT Serif
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Serif\PT_Serif-Web-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:375356
+FileModTime:1297206000
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,18,PT Serif Italic
+NameArray:0,Mac,4,PT Serif Italic
+NameArray:0,Win,1,PT Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-Regular
+FamilyName:PT Serif
+StyleName:Regular
+FullName:PT Serif
+MenuName:PT Serif
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Serif\PT_Serif-Web-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:359048
+FileModTime:1297206000
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,PT Serif
+NameArray:0,Mac,4,PT Serif
+NameArray:0,Win,1,PT Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\OFL.txt
+FileModTime:1346965200
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Black
+FamilyName:Raleway
+StyleName:Black
+FullName:Raleway Black
+MenuName:Raleway Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:180592
+FileModTime:1346965200
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Raleway Black
+NameArray:0,Win,1,Raleway Black
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-BlackItalic
+FamilyName:Raleway
+StyleName:Black Italic
+FullName:Raleway Black Italic
+MenuName:Raleway Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-BlackItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:148368
+FileModTime:1346965200
+WeightClass:900
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Raleway Black Italic
+NameArray:0,Win,1,Raleway Black
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Bold
+FamilyName:Raleway
+StyleName:Bold
+FullName:Raleway Bold
+MenuName:Raleway
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:179244
+FileModTime:1346965200
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Raleway Bold
+NameArray:0,Win,1,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-BoldItalic
+FamilyName:Raleway
+StyleName:Bold Italic
+FullName:Raleway Bold Italic
+MenuName:Raleway
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:148184
+FileModTime:1346965200
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Raleway Bold Italic
+NameArray:0,Win,1,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ExtraBold
+FamilyName:Raleway
+StyleName:ExtraBold
+FullName:Raleway ExtraBold
+MenuName:Raleway ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:178128
+FileModTime:1346965200
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Raleway ExtraBold
+NameArray:0,Win,1,Raleway ExtraBold
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ExtraBoldItalic
+FamilyName:Raleway
+StyleName:ExtraBold Italic
+FullName:Raleway ExtraBold Italic
+MenuName:Raleway ExtraBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-ExtraBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:148100
+FileModTime:1346965200
+WeightClass:800
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Raleway ExtraBold Italic
+NameArray:0,Win,1,Raleway ExtraBold
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ExtraLight
+FamilyName:Raleway
+StyleName:ExtraLight
+FullName:Raleway ExtraLight
+MenuName:Raleway ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:176344
+FileModTime:1346965200
+WeightClass:275
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Raleway ExtraLight
+NameArray:0,Win,1,Raleway ExtraLight
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ExtraLightItalic
+FamilyName:Raleway
+StyleName:ExtraLight Italic
+FullName:Raleway ExtraLight Italic
+MenuName:Raleway ExtraLight
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-ExtraLightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:142192
+FileModTime:1346965200
+WeightClass:275
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Raleway ExtraLight Italic
+NameArray:0,Win,1,Raleway ExtraLight
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Italic
+FamilyName:Raleway
+StyleName:Italic
+FullName:Raleway Italic
+MenuName:Raleway
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:145920
+FileModTime:1346965200
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Raleway Italic
+NameArray:0,Win,1,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Light
+FamilyName:Raleway
+StyleName:Light
+FullName:Raleway Light
+MenuName:Raleway Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:182376
+FileModTime:1346965200
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Raleway Light
+NameArray:0,Win,1,Raleway Light
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-LightItalic
+FamilyName:Raleway
+StyleName:Light Italic
+FullName:Raleway Light Italic
+MenuName:Raleway Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-LightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:148368
+FileModTime:1346965200
+WeightClass:300
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Raleway Light Italic
+NameArray:0,Win,1,Raleway Light
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Medium
+FamilyName:Raleway
+StyleName:Medium
+FullName:Raleway Medium
+MenuName:Raleway Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:179444
+FileModTime:1346965200
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Raleway Medium
+NameArray:0,Win,1,Raleway Medium
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-MediumItalic
+FamilyName:Raleway
+StyleName:Medium Italic
+FullName:Raleway Medium Italic
+MenuName:Raleway Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-MediumItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:147568
+FileModTime:1346965200
+WeightClass:500
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Raleway Medium Italic
+NameArray:0,Win,1,Raleway Medium
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Regular
+FamilyName:Raleway
+StyleName:Regular
+FullName:Raleway
+MenuName:Raleway
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:178520
+FileModTime:1346965200
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Raleway
+NameArray:0,Win,1,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-SemiBold
+FamilyName:Raleway
+StyleName:SemiBold
+FullName:Raleway SemiBold
+MenuName:Raleway SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:180492
+FileModTime:1346965200
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Raleway SemiBold
+NameArray:0,Win,1,Raleway SemiBold
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-SemiBoldItalic
+FamilyName:Raleway
+StyleName:SemiBold Italic
+FullName:Raleway SemiBold Italic
+MenuName:Raleway SemiBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-SemiBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:146584
+FileModTime:1346965200
+WeightClass:600
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Raleway SemiBold Italic
+NameArray:0,Win,1,Raleway SemiBold
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-Thin
+FamilyName:Raleway
+StyleName:Thin
+FullName:Raleway Thin
+MenuName:Raleway Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:177572
+FileModTime:1346965200
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Raleway Thin
+NameArray:0,Win,1,Raleway Thin
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Raleway-ThinItalic
+FamilyName:Raleway
+StyleName:Thin Italic
+FullName:Raleway Thin Italic
+MenuName:Raleway Thin
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Raleway\Raleway-ThinItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:141884
+FileModTime:1346965200
+WeightClass:250
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Raleway Thin Italic
+NameArray:0,Win,1,Raleway Thin
+NameArray:0,Win,16,Raleway
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\PT_Serif\OFL.txt
+FileModTime:1297206000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-Bold
+FamilyName:PT Serif
+StyleName:Bold
+FullName:PT Serif Bold
+MenuName:PT Serif
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\PT_Serif\PT_Serif-Web-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:339996
+FileModTime:1297206000
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,PT Serif Bold
+NameArray:0,Mac,4,PT Serif Bold
+NameArray:0,Win,1,PT Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-BoldItalic
+FamilyName:PT Serif
+StyleName:Bold Italic
+FullName:PT Serif Bold Italic
+MenuName:PT Serif
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\PT_Serif\PT_Serif-Web-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:337580
+FileModTime:1297206000
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,18,PT Serif Bold Italic
+NameArray:0,Mac,4,PT Serif Bold Italic
+NameArray:0,Win,1,PT Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-Italic
+FamilyName:PT Serif
+StyleName:Italic
+FullName:PT Serif Italic
+MenuName:PT Serif
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\PT_Serif\PT_Serif-Web-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:375356
+FileModTime:1297206000
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,18,PT Serif Italic
+NameArray:0,Mac,4,PT Serif Italic
+NameArray:0,Win,1,PT Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PTSerif-Regular
+FamilyName:PT Serif
+StyleName:Regular
+FullName:PT Serif
+MenuName:PT Serif
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\PT_Serif\PT_Serif-Web-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:359048
+FileModTime:1297206000
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,PT Serif
+NameArray:0,Mac,4,PT Serif
+NameArray:0,Win,1,PT Serif
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Playfair_Display\OFL (2).txt
+FileModTime:1321398000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Playfair_Display\OFL.txt
+FileModTime:1321398000
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PlayfairDisplay-Black
+FamilyName:Playfair Display
+StyleName:Black
+FullName:Playfair Display Black
+MenuName:Playfair Display Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Playfair_Display\PlayfairDisplay-Black (2).ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:211776
+FileModTime:1321398000
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Playfair Display Black
+NameArray:0,Win,1,Playfair Display Black
+NameArray:0,Win,16,Playfair Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PlayfairDisplay-Black
+FamilyName:Playfair Display
+StyleName:Black
+FullName:Playfair Display Black
+MenuName:Playfair Display Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Playfair_Display\PlayfairDisplay-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:211776
+FileModTime:1321398000
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Playfair Display Black
+NameArray:0,Win,1,Playfair Display Black
+NameArray:0,Win,16,Playfair Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PlayfairDisplay-BlackItalic
+FamilyName:Playfair Display
+StyleName:Black Italic
+FullName:Playfair Display Black Italic
+MenuName:Playfair Display Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Playfair_Display\PlayfairDisplay-BlackItalic (2).ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:209992
+FileModTime:1321398000
+WeightClass:900
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Playfair Display Black Italic
+NameArray:0,Win,1,Playfair Display Black
+NameArray:0,Win,16,Playfair Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PlayfairDisplay-BlackItalic
+FamilyName:Playfair Display
+StyleName:Black Italic
+FullName:Playfair Display Black Italic
+MenuName:Playfair Display Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Playfair_Display\PlayfairDisplay-BlackItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:209992
+FileModTime:1321398000
+WeightClass:900
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Playfair Display Black Italic
+NameArray:0,Win,1,Playfair Display Black
+NameArray:0,Win,16,Playfair Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PlayfairDisplay-Bold
+FamilyName:Playfair Display
+StyleName:Bold
+FullName:Playfair Display Bold
+MenuName:Playfair Display
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Playfair_Display\PlayfairDisplay-Bold (2).ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:213592
+FileModTime:1321398000
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Playfair Display Bold
+NameArray:0,Win,1,Playfair Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PlayfairDisplay-Bold
+FamilyName:Playfair Display
+StyleName:Bold
+FullName:Playfair Display Bold
+MenuName:Playfair Display
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Playfair_Display\PlayfairDisplay-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:213592
+FileModTime:1321398000
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Playfair Display Bold
+NameArray:0,Win,1,Playfair Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PlayfairDisplay-BoldItalic
+FamilyName:Playfair Display
+StyleName:Bold Italic
+FullName:Playfair Display Bold Italic
+MenuName:Playfair Display
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Playfair_Display\PlayfairDisplay-BoldItalic (2).ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:215008
+FileModTime:1321398000
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Playfair Display Bold Italic
+NameArray:0,Win,1,Playfair Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PlayfairDisplay-BoldItalic
+FamilyName:Playfair Display
+StyleName:Bold Italic
+FullName:Playfair Display Bold Italic
+MenuName:Playfair Display
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Playfair_Display\PlayfairDisplay-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:215008
+FileModTime:1321398000
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Playfair Display Bold Italic
+NameArray:0,Win,1,Playfair Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PlayfairDisplay-Italic
+FamilyName:Playfair Display
+StyleName:Italic
+FullName:Playfair Display Italic
+MenuName:Playfair Display
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Playfair_Display\PlayfairDisplay-Italic (2).ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:213028
+FileModTime:1321398000
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Playfair Display Italic
+NameArray:0,Win,1,Playfair Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PlayfairDisplay-Italic
+FamilyName:Playfair Display
+StyleName:Italic
+FullName:Playfair Display Italic
+MenuName:Playfair Display
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Playfair_Display\PlayfairDisplay-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:213028
+FileModTime:1321398000
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Playfair Display Italic
+NameArray:0,Win,1,Playfair Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PlayfairDisplay-Regular
+FamilyName:Playfair Display
+StyleName:Regular
+FullName:Playfair Display Regular
+MenuName:Playfair Display
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Playfair_Display\PlayfairDisplay-Regular (2).ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:210208
+FileModTime:1321398000
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Playfair Display Regular
+NameArray:0,Win,1,Playfair Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PlayfairDisplay-Regular
+FamilyName:Playfair Display
+StyleName:Regular
+FullName:Playfair Display Regular
+MenuName:Playfair Display
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Playfair_Display\PlayfairDisplay-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:210208
+FileModTime:1321398000
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Playfair Display Regular
+NameArray:0,Win,1,Playfair Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Kreon-Bold
+FamilyName:Kreon
+StyleName:Bold
+FullName:Kreon Bold
+MenuName:Kreon
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Kreon\Kreon-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:37868
+FileModTime:1296601200
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Kreon Bold
+NameArray:0,Win,1,Kreon
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Kreon-Light
+FamilyName:Kreon
+StyleName:Light
+FullName:Kreon Light
+MenuName:Kreon Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Kreon\Kreon-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:37272
+FileModTime:1296601200
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Kreon Light
+NameArray:0,Win,1,Kreon Light
+NameArray:0,Win,16,Kreon
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Kreon-Regular
+FamilyName:Kreon
+StyleName:Regular
+FullName:Kreon Regular
+MenuName:Kreon
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Kreon\Kreon-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:37096
+FileModTime:1296601200
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Kreon Regular
+NameArray:0,Win,1,Kreon
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Kreon\OFL.txt
+FileModTime:1296601200
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DidactGothic-Regular
+FamilyName:Didact Gothic
+StyleName:Regular
+FullName:Didact Gothic Regular
+MenuName:Didact Gothic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Didact_Gothic\DidactGothic-Regular (2).ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:194200
+FileModTime:1304456400
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Didact Gothic Regular
+NameArray:0,Win,1,Didact Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DidactGothic-Regular
+FamilyName:Didact Gothic
+StyleName:Regular
+FullName:Didact Gothic Regular
+MenuName:Didact Gothic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Didact_Gothic\DidactGothic-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:194200
+FileModTime:1304456400
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Didact Gothic Regular
+NameArray:0,Win,1,Didact Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Didact_Gothic\OFL (2).txt
+FileModTime:1304456400
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Didact_Gothic\OFL.txt
+FileModTime:1304456400
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\1001fonts-coco-gothic-eula.txt
+FileModTime:1499962388
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\__MACOSX\._Coco-Gothic
+FileModTime:1499355026
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\.DS_Store
+FileModTime:1499355030
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CocoGothic-BoldItalic
+FamilyName:Coco Gothic
+StyleName:Bold Italic
+FullName:Coco Gothic Bold Italic
+MenuName:Coco Gothic
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\Coco-Gothic-Bold-Italic-trial.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:726524
+FileModTime:1499354684
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Coco Gothic Bold Italic
+NameArray:0,Win,1,Coco Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CocoGothic-Bold
+FamilyName:Coco Gothic
+StyleName:Bold
+FullName:Coco Gothic Bold
+MenuName:Coco Gothic
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\Coco-Gothic-Bold-trial.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:729128
+FileModTime:1499354684
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Coco Gothic Bold
+NameArray:0,Win,1,Coco Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\Coco-Gothic-Family-CC-BY-NCLicensepdf.pdf
+FileModTime:1499354684
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CocoGothic-FatItalic
+FamilyName:Coco Gothic
+StyleName:Fat Italic
+FullName:Coco Gothic Fat Italic
+MenuName:Coco Gothic ExtBlk
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\Coco-Gothic-Fat-Italic-trial.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:777876
+FileModTime:1499354684
+WeightClass:950
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Coco Gothic Fat Italic
+NameArray:0,Win,1,Coco Gothic ExtBlk
+NameArray:0,Win,16,Coco Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CocoGothic-Fat
+FamilyName:Coco Gothic
+StyleName:Fat
+FullName:Coco Gothic Fat
+MenuName:Coco Gothic ExtBlk
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\Coco-Gothic-Fat-trial.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:740100
+FileModTime:1499354684
+WeightClass:950
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Coco Gothic Fat
+NameArray:0,Win,1,Coco Gothic ExtBlk
+NameArray:0,Win,16,Coco Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CocoGothic-HeavyItalic
+FamilyName:Coco Gothic
+StyleName:Heavy Italic
+FullName:Coco Gothic Heavy Italic
+MenuName:Coco Gothic Heavy
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\Coco-Gothic-Heavy-Italic-trial.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:706176
+FileModTime:1499354684
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Coco Gothic Heavy Italic
+NameArray:0,Win,1,Coco Gothic Heavy
+NameArray:0,Win,16,Coco Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CocoGothic-Heavy
+FamilyName:Coco Gothic
+StyleName:Heavy
+FullName:Coco Gothic Heavy
+MenuName:Coco Gothic Heavy
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\Coco-Gothic-Heavy-trial.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:733856
+FileModTime:1499354684
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Coco Gothic Heavy
+NameArray:0,Win,1,Coco Gothic Heavy
+NameArray:0,Win,16,Coco Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CocoGothic-Italic
+FamilyName:Coco Gothic
+StyleName:Italic
+FullName:Coco Gothic Italic
+MenuName:Coco Gothic
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\Coco-Gothic-Italic-trial.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:728044
+FileModTime:1499354684
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Coco Gothic Italic
+NameArray:0,Win,1,Coco Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CocoGothic-LightItalic
+FamilyName:Coco Gothic
+StyleName:Light Italic
+FullName:Coco Gothic Light Italic
+MenuName:Coco Gothic Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\Coco-Gothic-Light-Italic-trial.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:738296
+FileModTime:1499354684
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Coco Gothic Light Italic
+NameArray:0,Win,1,Coco Gothic Light
+NameArray:0,Win,16,Coco Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CocoGothic-Light
+FamilyName:Coco Gothic
+StyleName:Light
+FullName:Coco Gothic Light
+MenuName:Coco Gothic Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\Coco-Gothic-Light-trial.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:764220
+FileModTime:1499354684
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Coco Gothic Light
+NameArray:0,Win,1,Coco Gothic Light
+NameArray:0,Win,16,Coco Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CocoGothic
+FamilyName:Coco Gothic
+StyleName:Regular
+FullName:Coco Gothic
+MenuName:Coco Gothic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\Coco-Gothic-Regular-trial.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:741084
+FileModTime:1499354684
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Coco Gothic
+NameArray:0,Win,1,Coco Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CocoGothicAlternate-UltLtIta
+FamilyName:Coco Gothic Alternate
+StyleName:UltraLight Italic
+FullName:Coco Gothic Alternate UltLt Ita
+MenuName:Coco Gothic Alternate ExtLt
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\Coco-Gothic-Ultralight-Italic-trial.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:708348
+FileModTime:1499354686
+WeightClass:200
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Coco Gothic Alternate UltLt Ita
+NameArray:0,Win,1,Coco Gothic Alternate ExtLt
+NameArray:0,Win,16,Coco Gothic Alternate
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CocoGothic-UltraLight
+FamilyName:Coco Gothic
+StyleName:UltraLight
+FullName:Coco Gothic UltraLight
+MenuName:Coco Gothic ExtLt
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\Coco-Gothic-Ultralight-trial.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:744172
+FileModTime:1499354686
+WeightClass:200
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Coco Gothic UltraLight
+NameArray:0,Win,1,Coco Gothic ExtLt
+NameArray:0,Win,16,Coco Gothic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\coco_MYFONTS GALLERY 10.png
+FileModTime:1493732450
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\coco_MYFONTS GALLERY 2.png
+FileModTime:1493737496
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\coco_MYFONTS GALLERY 3.png
+FileModTime:1493737452
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\coco_MYFONTS GALLERY 4.png
+FileModTime:1493737422
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\coco_MYFONTS GALLERY 5.png
+FileModTime:1493737604
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\coco_MYFONTS GALLERY 6.png
+FileModTime:1493735120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\coco_MYFONTS GALLERY 7.png
+FileModTime:1493735036
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\coco_MYFONTS GALLERY 8.png
+FileModTime:1493734936
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\coco_MYFONTS GALLERY 9.png
+FileModTime:1493734740
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\cOCO gOTHIC rEGULAR\Coco-Gothic\coco_MYFONTS GALLERY COVER 1440 X 720_2.png
+FileModTime:1493738792
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AnticDidone-Regular
+FamilyName:Antic Didone
+StyleName:Regular
+FullName:Antic Didone Regular
+MenuName:Antic Didone
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Antic_Didone\AnticDidone-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:39668
+FileModTime:1331679600
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Antic Didone Regular
+NameArray:0,Win,1,Antic Didone
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Unknown\Desktop\portfolio_eksamen\Font\Antic_Didone\OFL.txt
+FileModTime:1331679600
+%EndFont
+
