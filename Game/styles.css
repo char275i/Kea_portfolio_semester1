@@ -70,6 +70,7 @@ body {
     z-index: ;
 
 }
+
 /* ********   Game Over   ******** */
 #tildeGif {
     width: 30%;
@@ -108,10 +109,6 @@ body {
     }
 }
 
-/*   from {background-position: 0%;}
-    to {background-position: -2600%;}
-}*/
-
 /******** ballon *************/
 #ballon {
 
@@ -132,24 +129,6 @@ body {
     z-index: 1;
     animation-delay: 18s;
 }
-
-/*@keyframes fontbulger {
-  0% {
-    font-size: 10px;
-     from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-  }
-  30% {
-    font-size: 15px;
-  }
-  100% {
-    font-size: 12px;
-  }
-}*/
 
 /*********** SVG *********/
 

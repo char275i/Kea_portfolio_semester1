@@ -16,7 +16,7 @@
 </head>
 
 <body>
-   <div class="topnav" id="myTopnav">
+    <div class="topnav" id="myTopnav">
         <a href="/index.html" class="activeNav">Home</a>
         <a href="/tema1.html">Tema 1 HTML</a>
         <div class="dropdown">
@@ -52,111 +52,111 @@
     </div>
     <!-- header end -->
     <div id="container">
-    <section id="Design">
-        <div class="sectionwrapper">
-            <div class="column">
-                <p class="underrubrik">
-                    ROCKS’N BANANAS. Animationsspil af Charlotte Fuchs</p>
+        <section id="Design">
+            <div class="sectionwrapper">
+                <div class="column">
+                    <p class="underrubrik">
+                        ROCKS’N BANANAS. Animationsspil af Charlotte Fuchs</p>
 
-                <strong>Spilide:</strong>Tilde står alene med hendes og Ken’s banan-
-                plantage.<p>Hvis man hjælper med at plukke bananerne, får man point.
-                    Samtidig er der en meteor storm, der ødelægger plantagen.</p>
+                    <strong>Spilide:</strong>Tilde står alene med hendes og Ken’s banan-
+                    plantage.<p>Hvis man hjælper med at plukke bananerne, får man point.
+                        Samtidig er der en meteor storm, der ødelægger plantagen.</p>
                     ● Fjerner man meteorene får man point.<br>
                     ● Hvis man hjælper med at plukke bananerne, får man point.<br>
                     ○ Hvis man plukker de umodne bananer mister man et liv.
-            </div>
-        </div>
-    </section>
-    <div id="screen">
-
-        <div id="game">
-            <div id="game_background"></div>
-            <div id="game_elements">
-                <div id="banan1" class="type2 position1"></div>
-                <div id="stone0" class="stone pos0">
-                </div>
-                <div id="stone1" class="stone pos1">
-                </div>
-                <div id="stone2" class="stone pos2">
-                </div>
-                <div id="stone3" class="stone pos5">
-                </div>
-                <div id="stone4" class="stone pos3">
                 </div>
             </div>
-            <div id="stone_sprite"></div>
+        </section>
+        <div id="screen">
 
-            <div id="game_ui">
-                <div id="points">
-                    <span class="#harPoints">Score:</span>
-                    <span class="antal">0</span>
+            <div id="game">
+                <div id="game_background"></div>
+                <div id="game_elements">
+                    <div id="banan1" class="type2 position1"></div>
+                    <div id="stone0" class="stone pos0">
+                    </div>
+                    <div id="stone1" class="stone pos1">
+                    </div>
+                    <div id="stone2" class="stone pos2">
+                    </div>
+                    <div id="stone3" class="stone pos5">
+                    </div>
+                    <div id="stone4" class="stone pos3">
+                    </div>
                 </div>
-                <div id="energy">
-                    <div id="bananLl1" class="banan"></div>
-                    <div id="bananLl2" class="banan"></div>
-                    <div id="bananLl3" class="banan"></div>
-                </div>
-                <div id="timer">
-                    Time:
-                    <div id="tid">0</div>
+                <div id="stone_sprite"></div>
 
+                <div id="game_ui">
+                    <div id="points">
+                        <span class="#harPoints">Score:</span>
+                        <span class="antal">0</span>
+                    </div>
+                    <div id="energy">
+                        <div id="bananLl1" class="banan"></div>
+                        <div id="bananLl2" class="banan"></div>
+                        <div id="bananLl3" class="banan"></div>
+                    </div>
+                    <div id="timer">
+                        Time:
+                        <div id="tid">0</div>
+
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id="start" class="hide">
-            <div id="play"></div>
-            <!--<div id="info_screen" class="hide">
+            <div id="start" class="hide">
+                <div id="play"></div>
+                <!--<div id="info_screen" class="hide">
                <h2>How to:</h2>
                <p>Tilde's mand Ken er ude for at finde sig selv. Tilde er derfor alene på sin banan plantage. Der er en meteor storm over plantagen, så hun har brug for hjælp til at plukke de modne bananer og fjerne stenene som ødelægger planterne. Hvis man plukker de umodne bananer, mister man et liv.<br><strong>Kom lad os hjælpe Tilde!</strong> </p>
                 <div id="stone_sprite"></div>
             </div>
             <div id="info_close"></div>-->
-            <!-- Trigger/Open The Modal -->
-            <button id="myBtnA">How to play!</button>
+                <!-- Trigger/Open The Modal -->
+                <button id="myBtnA">How to play!</button>
 
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
 
-                <!-- Modal content -->
-                <div class="modal-content">
-                    <span class="close"></span>
-                    <p>Tilde's mand Ken er ude for at finde sig selv. Tilde er derfor alene på sin banan plantage. Der er en meteor storm over plantagen, så hun har brug for hjælp til at plukke de modne bananer og fjerne stenene som ødelægger planterne. Hvis man plukker de umodne bananer, mister man et liv.<br><strong id="center">Kom lad os hjælpe Tilde!</strong></p>
-                </div>
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close"></span>
+                        <p>Tilde's mand Ken er ude for at finde sig selv. Tilde er derfor alene på sin banan plantage. Der er en meteor storm over plantagen, så hun har brug for hjælp til at plukke de modne bananer og fjerne stenene som ødelægger planterne. Hvis man plukker de umodne bananer, mister man et liv.<br><strong id="center">Kom lad os hjælpe Tilde!</strong></p>
+                    </div>
 
-            </div>
-        </div>
-        <div id="gameover" class="hide">
-            <div id="newGame"></div>
-            <div id="GameOverSign"></div>
-        </div>
-        <div id="levelcomplete" class="hide">
-            <div id="playAgain"></div>
-            <div id="YouRockSign"></div>
-        </div>
-        <div id="settings"></div>
-
-        <div id="settings_screen" class="hide">
-            <!--           <h1>Settings</h1>-->
-            <div id="setting_effekt_sound">
-                <h1>Effekter</h1>
-                <div id="sfx" class="on">
-                    <div id="sfx_sprite"></div>
                 </div>
             </div>
-            <div id="setting_music">
-                <h1>Musik</h1>
-                <div id="music" class="on">
-                    <div id="music_sprite"></div>
+            <div id="gameover" class="hide">
+                <div id="newGame"></div>
+                <div id="GameOverSign"></div>
+            </div>
+            <div id="levelcomplete" class="hide">
+                <div id="playAgain"></div>
+                <div id="YouRockSign"></div>
+            </div>
+            <div id="settings"></div>
+
+            <div id="settings_screen" class="hide">
+                <!--           <h1>Settings</h1>-->
+                <div id="setting_effekt_sound">
+                    <h1>Effekter</h1>
+                    <div id="sfx" class="on">
+                        <div id="sfx_sprite"></div>
+                    </div>
                 </div>
+                <div id="setting_music">
+                    <h1>Musik</h1>
+                    <div id="music" class="on">
+                        <div id="music_sprite"></div>
+                    </div>
 
+                </div>
+                <div id="setting_close">
+
+
+                </div>
             </div>
-            <div id="setting_close">
 
-
-            </div>
         </div>
-
-    </div>
     </div>
     <audio id="musik">
         <source src="lyde/ES_Smitten_DylanSitts.mp3" type="audio/mpeg">
@@ -201,7 +201,6 @@
                 x.className = "topnav";
             }
         }
-
     </script>
 
 </body>

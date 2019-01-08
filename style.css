@@ -34,7 +34,7 @@ a {
 
 iframe {
     border: 5px inset #4f4f4f;
-    -webkit-box-shadow: 4px 4px 4px #4f4f4f;
+    -webkit-box-shadow: 4px 4px 14px #4f4f4f;
     -moz-box-shadow: 4px 4px 4px #4f4f4f;
     box-shadow: 4px 4px 4px #4f4f4f;
     padding: 4px;
@@ -45,26 +45,20 @@ iframe {
     margin: 0 auto;
 
 }
-
 @media screen and (max-width: 850px) {
     #sidebarContent {
         display: none !important;
     }
-
     #toolbarViewerLeft {
-        display: none !important;
-    }
-
+    display: none !important;
+}
     #thumbnailView {
-        display: none !important;
-    }
-
-    #outerContainer.sidebarMoving #sidebarContainer,
-    #outerContainer.sidebarOpen #sidebarContainer {
-        display: none !important;
-    }
-
-    #pdf {
+    display: none !important;
+}
+    #outerContainer.sidebarMoving #sidebarContainer, #outerContainer.sidebarOpen #sidebarContainer {
+    display: none !important;
+}
+    #pdf{
         max-height: 100px;
     }
 }
