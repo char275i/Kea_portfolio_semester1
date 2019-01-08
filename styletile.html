@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8">
+    <title>Styletile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="activeNav">Home</a>
+        <a href="tema1.html">Tema 1 HTML</a>
+        <div class="dropdown">
+            <button class="dropbtn">Tema 2 VIDEO
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="interview.html">Interview m B-rolls</a>
+                <a href="02_02_06_redesign/index.html">Redesign af website</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Tema 3 Animation
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="sceneStiletile.html">03.01.04 - Link til scene, samt udvidet style tile</a>
+                <a href="03_Animation/index.html">Animations-spil</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Tema 4 UX
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="designSprint.html">04.02.01 – Design Sprint</a>
+                <a href="webPrototype.html">04.03.01 – Web prototype</a>
+                <a href="nativeApp.html">04.04.01 – Design Sprint: Native App</a>
+                <a href="temadokumentation.html">04.04.02 – Temadokumentation</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <!-- header end -->
+    <div id="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="index.html#om">Om</a></li>
+                    <li><a href="index.html#eksempler">Eksempler</a></li>
+                    <li><a href="index.html#typografi">Typografi</a></li>
+                    <li><a href="index.html#komposition_farver">Komposition og Farver</a></li>
+                    <li><a href="index.html#links">Links</a></li>
+                    <li><a href="index.html#ekstra">Ekstra</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <section id="styletile">
+            <h1>All ABOUT VOGUE</h1>
+            <div class="sectionwrapper">
+                <div class="content">
+                    <figure class="image"><img src="img/01.01.01moodboard1.jpg"><br>
+                        <figcaption class="billedtekst">Fra tegning til foto</figcaption>
+                    </figure>
+                    <figure class="image"><img src="img/01.01.01moodboard2.jpg"><br>
+                        <figcaption class="billedtekst">Dronningen gennem tiderne Diane Vreeland</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class='bottomLink'>
+                <h3 class="bigVogue">Vogue</h3>
+                <a href="https://www.vogue.de/?international" target="_blank">Se mere her!</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footloose">
+        <a href="https://vonmohs.dk/" target="_blank"><img src="VonMohs.png" class="VonMohs" alt="VonMohs.dk"></a>
+        <a href="https://www.facebook.com/VonMohs/"><i class="fa fa-facebook-official"></i></a>
+        <a href="https://www.pinterest.dk/charlottefuchs/pins/"><i class="fa fa-pinterest-p"></i></a>
+        <a href="https://twitter.com/jazzybear1970"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/jazzybear70/"><i class="fa fa-instagram"></i></a>
+        <p class="copyright">
+            All rights reserved <a href="https://www.itgraphic.dk/" target="_blank">&copy; itgraphic</a>
+        </p>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+</html>
