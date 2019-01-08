@@ -257,7 +257,7 @@ section {
 
 @media screen and (max-width: 970px) {
     .hero-image {
-        max-width: 580px;
+        max-width: 880px;
         height: 70%;
         margin: 0 auto;
     }
