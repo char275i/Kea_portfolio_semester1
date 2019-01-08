@@ -1,0 +1,144 @@
+/********* Search **************/
+
+input[type=search] {
+    background: var(--color-Reddish) url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    padding: 9px 10px 9px 32px;
+    border: solid 1px var(--color-darkblue);
+    width: 15px;
+    height: 53px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+input[type=search]:focus {
+    width: 130px;
+    background-color: #fff;
+    border-color: var(--color-darkblue);
+}
+
+/*---------------------------------------------------
+5: Layout / Grid
+---------------------------------------------------*/
+/*Grid container*/
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 15px;
+    justify-items: center;
+    max-width: 768px;
+    margin: 0 auto;
+    background-color: var(--color-light);
+}
+
+/*Grid column items*/
+.frontervskeatitle {
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+.fronterkealoginform {
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+/*loginpage*/
+.loginform {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+.huskmig {
+    grid-row-start: 3;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+.glemtpassword {
+    grid-row-start: 4;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
+/*loginpage grid*/
+.formgroup {
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    grid-gap: 15px;
+}
+
+.formgroup label {
+    grid-column-start: 1;
+}
+
+.formgroup input {
+    grid-column-start: 2;
+}
+
+.formgroup,
+.glemtpassword {
+    margin-bottom: 1.5em;
+}
+
+/*afleveringer page*/
+.afleveringer {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: end;
+}
+
+/*---------------------------------------------------
+6: Form styling
+---------------------------------------------------*/
+/*Inputs*/
+label,
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=submit] {
+    padding: 1em;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus {
+    border: 3px solid var(--color-darkblue);
+    outline: -webkit-focus-ring-color auto 0;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    transition: background-color 1s, color 1s;
+}
+
+input[typr=submit]:hover {
+    color: black;
+    background-color: #f90;
+}
+
+/*---------------------------------------------------
+7: Table styles
+---------------------------------------------------*/
+
+table {
+    width: 100%;
+
+}
+
+th {
+    background-color: var(--color-darkblue);
+    color: var(--color-light);
+
+}
+
+td {
+    border: 1px solid var(--color-dark);
+    height: 3em;
+    text-align: center;
+}
+
+/*---------------------------------------------------
+5: Page specific styles
+---------------------------------------------------*/
