@@ -1,0 +1,661 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+i {
+    color: #b3002a;
+}
+
+a {
+    color: #b3002a;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sectionwrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #b3002a;
+}
+
+#container {
+    margin-top: 3em;
+    max-width: 90%;
+    border: 3px solid black;
+    padding: 1px;
+}
+
+.VonMohs {
+    background-image: url('VonMohs.png');
+    z-index: 100;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 auto;
+    width: 4em;
+    height: 4em;
+    margin-bottom: 1em;
+    visibility: visible;
+
+}
+
+/****************************  Menu  ****************************/
+
+
+/* unvisited link */
+header nav a:active header nav a:visited header nav a:link {
+    color: #f2e4d7;
+}
+
+/* mouse over link */
+header nav a:hover {
+    color: #ff3e2c;
+}
+
+
+header {
+    position: fixed;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 12, 1) 23%, rgba(0, 56, 255, 1) 100%);
+    width: 89.4%;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 1rem;
+}
+
+header nav a {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.1rem;
+    margin: 0 0 1rem 0;
+    padding: 0.2rem;
+}
+
+@media only screen and (max-width: 765px) {
+
+    header nav {
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 0.5rem 0;
+    }
+
+    header nav a {
+        border-right: 0.25rem solid #f2e4d7;
+        padding: 0 0.1rem;
+        font-size: 2vw;
+    }
+
+    header nav a:last-child {
+        border-right: none;
+    }
+}
+
+/****************************  Menu slut  ****************************/
+@media only screen and (max-width: 650px) {
+    #eksempler .column {
+        flex-basis: 150px;
+    }
+}
+
+nav ul {
+    margin: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+li {
+    margin: .20em 0;
+    padding: 0 0.3em;
+    border-left: 1px solid #ccc;
+}
+
+/************ nav 2*************/
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #000;
+    /*overflow: hidden;*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #b3002a;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #b3002a;
+    color: white;
+}
+
+/* Add a grey background to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #021729;
+    color: #bbb;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 710px) {
+
+    .topnav a:not(:first-child),
+    .dropdown .dropbtn {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 710px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav.responsive .dropdown {
+        float: none;
+    }
+
+    .topnav.responsive .dropdown-content {
+        position: relative;
+    }
+
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+/***************** end *********************/
+h1,
+h2,
+h3 {
+
+    display: flex;
+    justify-content: flex-start;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Kreon', serif;
+    padding: 2.3rem 0em 1rem 2rem;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.billedtekst {
+    font-size: 12px;
+    font-family: 'PT Serif', serif;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem
+}
+
+.forklaring {
+    font-size: 14px;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem
+}
+
+.underrubrik {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #701209;
+    padding-left: 0.5rem;
+    font-size: 14px;
+    padding-bottom: 0.5rem;
+}
+
+.mellemrubrik {
+    font-family: 'Didact Gothic', sans-serif;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.sectionwrapper .image {
+    width: 100%;
+    height: auto;
+}
+
+.Paragraph_01_Brødtekst {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    color: #701209;
+    padding-left: 0.5rem;
+    font-size: 14px;
+    padding-bottom: 0.5rem;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/********** splash *********************/
+#splash {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#splash img {
+    padding-top: 2rem !important;
+    margin: 0;
+    max-width: 100% !important;
+}
+
+@media only screen (max-width: 376px) and (orientation: portrait) {
+    #splash img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
+/**************** Om  **************************/
+#om {
+    background-color: #fff;
+}
+
+#om .column {
+    flex-basis: 400PX;
+    flex-grow: 1;
+    margin: 20px;
+    padding-bottom: 5px;
+}
+
+#om figure {
+    border: 0.7rem solid #456cae;
+}
+
+/************* Eksempler ************************/
+
+#eksempler {
+    background-color: #456fae;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#eksempler .column {
+    display: flex;
+    background-color: #fff;
+    flex-basis: 280px;
+    flex-grow: 1;
+    margin: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+#eksempler .top {
+    margin: 0.5rem;
+}
+
+#eksempler .bottom {
+    margin: 0.5rem;
+}
+
+/********************* Typografi *********************/
+#typografi {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+#typografi .column_wide {
+    flex-basis: 660px;
+    flex-grow: 2;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+}
+
+#typografi .top {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+#typografi .top .image {
+    flex-basis: 270px;
+    flex-grow: 2:
+}
+
+#typografi .column_wide .txt {
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding: 0.5em;
+}
+
+#typografi .bottom {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+    height: auto;
+    padding-top: 1rem;
+}
+
+#typografi .image {
+    flex-basis: 220px;
+}
+
+#typografi .column_narrow {
+    flex-basis: 310px;
+    flex-grow: 1;
+    padding: 40px;
+    align-self: center;
+    background-color: #000;
+    color: #C0A6AA;
+}
+
+#typografi img {
+    width: 100%;
+}
+
+#typografi .column_narrow p {
+    color: #C0A6AA;
+}
+
+#typografi .column_narrow .forklaring {
+    padding-bottom: 0.5rem;
+}
+
+/******************* Komposition og farver **********/
+#komposition_farver {
+    background-color: #fff;
+}
+
+#komposition_farver .column_narrow {
+    flex-basis: 300px;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+#komposition_farver .column_narrow figure {
+    padding-top: 1rem;
+}
+
+#komposition_farver .column_wide {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 600px;
+    flex-grow: 2;
+    justify-content: space-around;
+}
+
+#komposition_farver .content {
+    flex-basis: 400px;
+    flex-grow: 2;
+}
+
+#komposition_farver .colors {
+    display: flex;
+    flex-basis: 300px;
+    flex-direction: column;
+}
+
+#komposition_farver .colors1 {
+    height: 50px;
+    margin: 7px;
+    width: 200px;
+    background-color: #033da6;
+}
+
+#komposition_farver .colors2 {
+    height: 50px;
+    margin: 7px;
+    width: 200px;
+    background-color: #456fae;
+}
+
+#komposition_farver .colors3 {
+    height: 50px;
+    margin: 7px;
+    width: 200px;
+    background-color: #D6E9FE;
+}
+
+#komposition_farver .colors4 {
+    height: 50px;
+    margin: 7px;
+    width: 200px;
+    background-color: #b10502;
+}
+
+#komposition_farver .colors5 {
+    height: 50px;
+    margin: 7px;
+    width: 200px;
+    background-color: #4c806a;
+}
+
+#komposition_farver .colors6 {
+    height: 50px;
+    margin: 7px;
+    width: 200px;
+    background-color: #8d9c7f;
+}
+
+#komposition_farver .colors7 {
+    height: 50px;
+    margin: 7px;
+    width: 200px;
+    background-color: #d7d4b2;
+}
+
+#komposition_farver .colors8 {
+    height: 50px;
+    margin: 7px;
+    width: 200px;
+    background-color: #f2f2f0;
+}
+
+/***************************************************/
+#links {
+    background-color: #d7d4b2;
+    padding: 0.5rem;
+}
+
+#links .content {
+    width: 100%;
+    border: 0.5rem;
+}
+
+#links li {
+    background-color: #d7d4b2;
+}
+
+
+/***************** Ekstra ********************/
+
+
+#ekstra .MyChoise1 {
+    padding: 0.2rem;
+    width: 80%;
+    padding: 0.5rem;
+
+}
+
+/******************footer*****************************/
+.footer a {
+    display: flex;
+    margin-left: auto;
+}
+
+.bottomLink {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.bigVogue {
+    font-family: ltc-bodoni-175,
+        serif;
+    font-size: 4rem;
+
+}
+
+/************** footer 2 */
+footer {
+    text-align: center !important;
+}
+
+.footloose {
+    background-color: #000;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    color: white;
+}
+
+/************* Styletile ******************/
+
+#styletile h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#styletile a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* unvisited link */
+#styletile a:link {
+    color: blue;
+}
+
+/* visited link */
+#styletile a:visited {
+    color: red;
+}
+
+/* mouse over link */
+#styletile a:hover {
+    color: tomato;
+}
+
+/* selected link */
+#styletile a:active {
+    color: pink;
+}
+
+@media only screen and (min-width: 650px) {
+    #eksempler .column {
+        flex-basis: 150px;
+    }
+}
