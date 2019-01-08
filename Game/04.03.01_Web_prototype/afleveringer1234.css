@@ -1,0 +1,368 @@
+:root {
+    --color-darkblue: #233249;
+    --color-red: #EA5048;
+    --color-white: #FFFFFF;
+    --color-lightgrey: #EDEDED;
+    --color-darkgrey: #E0E0E0;
+
+    --color-blue: #26C1DF;
+    --color-turkis: #6DCEAE;
+    --color-orange: #FF9810;
+    --color-yellow: #F7C647;
+    --color-pink: #E04A76;
+}
+
+
+body {
+    margin: 0;
+}
+
+#design-sprint5 .box3 {
+    position: relative;
+    left: 55vw;
+    bottom: 4vw;
+    font-size: 2.8vw;
+
+}
+
+#design-sprint5 .box4 {
+    position: relative;
+    left: 77vw;
+    bottom: 9vw;
+    font-size: 2.8vw;
+}
+/******** BOXES ***************/
+
+.box1 {
+    border: 3vw solid var(--color-lightgrey);
+    margin: 0;
+    padding: 1em;
+    height: 3em;
+    width: 90%;
+}
+
+.box2 {
+    border: 0vw var(--color-lightgrey);
+    padding: 1vw 0vw 0vw 0vw;
+    margin: 0vw 0vw 0vw;
+    height: 20vw;
+    width: 100%;
+}
+
+.box3 {
+    background-color: var(--color-red);
+    width: 20vw;
+    height: 5vw;
+    color: var(--color-white);
+    text-align: center;
+    padding: 1vw 0 0;
+
+}
+
+.box4 {
+    background-color: var(--color-darkblue);
+    width: 10vw;
+    height: 5vw;
+    color: var(--color-white);
+    text-align: center;
+    padding: 1vw 0 0;
+}
+
+.box5 {
+    background-color: var(--color-darkblue);
+    width: 25vw;
+    height: 5vw;
+    color: var(--color-white);
+    text-align: center;
+    padding: 1vw 0 0;
+}
+
+.box6 {
+    background-color: var(--color-darkblue);
+    width: 46vw;
+    height: 5vw;
+    color: var(--color-white);
+    text-align: center;
+    padding: 1vw 0 0;
+}
+
+.box7 {
+    background-color: var(--color-white);
+    width: 50vw;
+    height: 5vw;
+    text-align: center;
+    color: var(--color-red);
+    padding: 1vw 0 0;
+    font-size: 3vw;
+}
+
+.box8 {
+    background-color: var(--color-white);
+    width: 70vw;
+    height: 5vw;
+    text-align: center;
+    color: var(--color-red);
+    font-size: 3vw;
+    padding: 1vw 0 0;
+}
+
+.box9 {
+    background-color: var(--color-darkblue);
+    color: var(--color-white);
+    width: 15vw;
+    height: 5vw;
+    text-align: center;
+}
+
+.box10 {
+    background-color: var(--color-white);
+    color: var(--color-darkblue);
+    width: 28vw;
+    height: 5vw;
+    text-align: center;
+}
+
+/************** AFLEVERINGER 1 *********/
+
+#firstsemester {
+    background-color: var(--color-lightgrey);
+    display: grid;
+}
+
+#firstsemester .grid-item {
+    padding: 5vw;
+    margin: 3vw 0vw;
+    font-size: 5vw;
+    text-align: left;
+
+}
+
+#semesteroverskrift {
+    background-color: var(--color-darkgrey);
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+}
+
+#semesteroverskrift h1 {
+    position: absolute;
+    left: 20vw;
+}
+
+#semesteroverskrift img {
+    position: relative;
+    top: 6vw;
+    left: 7vw;
+}
+
+#skema1 {
+    background-color: var(--color-blue);
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+}
+
+
+
+#lektier1 {
+    background-color: var(--color-turkis);
+    text-align: left;
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+}
+
+#materialer1 {
+    background-color: var(--color-orange);
+    text-align: left;
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+}
+
+
+
+#opgavebeskrivelser1 {
+    background-color: var(--color-yellow);
+    text-align: left;
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+}
+
+
+
+#afleveringer1,
+#afleveringer2,
+#afleveringer3,
+#afleveringer4,
+#afleveringer5 {
+    background-color: var(--color-pink);
+    text-align: left;
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+
+}
+
+#afleveringer4,
+#afleveringer5 {
+    margin: 2vw 0 3vw;
+}
+
+
+#litteraturliste1 {
+    background-color: var(--color-red);
+    text-align: left;
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+}
+
+/********** AFLEVERINGER 2 ***********/
+#overskrift {
+    background-color: var(--color-darkgrey);
+    font-family: Helvetica Neue;
+    color: var(--color-darkblue);
+    margin: 0 0 4vw;
+}
+
+#afleveringer1.grid-item {
+    padding: 5vw;
+    margin: 3vw 0vw;
+    font-size: 5vw;
+    text-align: left;
+}
+
+
+/************ TABLE *************/
+
+table {
+    table-layout: fixed;
+    width: 100%;
+
+}
+
+th {
+    background-color: var(--color-pink);
+    color: var(--color-darkblue);
+    font-family: Helvetica Neue;
+    text-align: left;
+}
+
+td {
+    background-color: var(--color-white);
+    color: var(--color-darkblue);
+    font-family: Helvetica Neue;
+    border: 3vw;
+    padding: 4vw;
+    border-style: solid;
+    border-width: 0.2vw;
+
+}
+
+/********** GRID ************/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: var(--color-white);
+}
+
+.grid-item {
+    /* border:  solid white; */
+    padding: 5vw;
+    margin: 0vw 0vw;
+    font-size: 5vw;
+    text-align: left;
+
+}
+
+.grid-drop {
+    padding: 10vw;
+    margin: 0 0 4vw;
+    background-color: var(--color-lightgrey);
+    font-family: Helvetica Neue;
+
+}
+
+/********** AFLEVERINGER 3 **************/
+
+#overskrift h1 {
+    font-size: 6vw;
+    padding: 2vw;
+}
+
+#user-research img {
+    position: absolute;
+    left: 70vw;
+}
+
+#user-brief .box3 {
+    position: relative;
+    bottom: 5vw;
+    left: 55vw;
+    font-size: 2.8vw
+}
+
+#user-brief .box4 {
+    position: relative;
+    bottom: 10vw;
+    left: 77vw;
+    font-size: 2.8vw;
+}
+
+
+#user-research2 .box3 {
+    position: relative;
+    bottom: 5vw;
+    left: 55vw;
+    font-size: 2.8vw
+}
+
+#user-research2 .box4 {
+    position: relative;
+    bottom: 10vw;
+    left: 77vw;
+    font-size: 2.8vw
+}
+
+#design-sprint .box5 {
+    position: relative;
+    bottom: 5vw;
+    left: 60vw;
+    font-size: 2.8vw
+}
+
+#design-sprint .box6 {
+    position: relative;
+    bottom: vw;
+    left: 40vw;
+    font-size: 2.8vw
+}
+
+
+/******** AFLEVERINGER 4 **********/
+
+#afleveringer3 img {
+    position: absolute;
+    left: 75vw;
+}
+
+#design-sprint .box7 {
+    position: relative;
+    left: 25vw;
+    bottom: 5vw;
+}
+
+#design-sprint .box8 {
+    position: relative;
+    left: 25vw;
+    bottom: 5vw
+}
+
+#design-sprint .box9 {
+    position: relative;
+    left: 40vw;
+    bottom: 4vw;
+
+}
+
+#design-sprint .box10 {
+    position: relative;
+    left: 56vw;
+    bottom: 9vw;
+}
