@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <title>01.04.02 - responsive_site_v2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="activeNav">Home</a>
+        <a href="tema1.html">Tema 1 HTML</a>
+        <div class="dropdown">
+            <button class="dropbtn">Tema 2 VIDEO
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="interview.html">Interview m B-rolls</a>
+                <a href="02_02_06_redesign/index.html">Redesign af website</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Tema 3 Animation
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="sceneStiletile.html">03.01.04 - Link til scene, samt udvidet style tile</a>
+                <a href="03_Animation/index.html">Animations-spil</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Tema 4 UX
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="designSprint.html">04.02.01 – Design Sprint</a>
+                <a href="webPrototype.html">04.03.01 – Web prototype</a>
+                <a href="nativeApp.html">04.04.01 – Design Sprint: Native App</a>
+                <a href="temadokumentation.html">04.04.02 – Temadokumentation</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <!-- header end -->
+    <div id="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="#om">Om</a></li>
+                    <li><a href="#eksempler">Eksempler</a></li>
+                    <li><a href="#typografi">Typografi</a></li>
+                    <li><a href="#komposition_farver">Komposition</a></li>
+                    <li><a href="#links">Links</a></li>
+                    <li><a href="#ekstra">Ekstra</a></li>
+                    <li><a href="styletile.html">Styletile</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="splash">
+            <picture>
+                <source media="(min-width: 976px) and (orientation: landscape)" srcset="img/Desktop.jpg">
+                <source media="(max-width: 376px) and (orientation: protrait)" srcset="img/IPhone.jpg">
+                <img src="img/IPhone.jpg" style="width:auto; padding: 0rem;">
+            </picture>
+        </section>
+
+
+        <section id="om">
+            <h1>American Magazine Ca. 1933 - 1965</h1>
+            <div class="sectionwrapper">
+                <div class="column">
+                    <p class="underrubrik">VOGUE Magasin. Reklamernes søjleplads i USA fra 1933 - 1965. Illustrationer blev afløst af fotografiet og Grafisk Design var olien i kapitalismens maskine.</p>
+                    <h3>Kampen om markedet</h3>
+                    <p class="forklaring">Radioen opnåede sit gennembrud i 30’erne, og var den dominerende kommunikations form. Den teknologiske udvikling indenfor trykkeri, gjorde at reklamer også blev mere synlige, som teknologien tog fart. 20’ernes succesfulde illustartioner på Vogue, blev erstattet af fotografiet. Selvom man stadig ikke havde den store palette af farver og pixeler, så brugte man andre teknikker som komposition, lys og skygger og miks af typografi, til at tage fokus fra dette.</p>
+                    <h3>Chefredaktørens magt</h3>
+                    <p class="forklaring">Mulighederne blev større og det forplantede sig i grafisk design. Der blev lånt ideer og kompositioner fra Avantgarde, Bauhaus, konstruktivismen og udbredt eksperimental typografi. Med fotografiet skabte man mesterværker ved brug af lys og skygge, eksperimental iscenesættelse og geometriske former og streger. Man brugte krop, beklædning og rum. Specielt for Vogue, eksperimenterede man også meget med typografi i logoet. Kunst kunne direkte indrages i billedet og fotografer og redaktøren blev hyldet for nyskabningen.</p>
+                    <h3>Fotografen blev redaktør</h3>
+                    <p class="forklaring">Edward Steichens (1879 - 1973). Vogue coveret herunder fra 1932 var Vogues føste fotografiske cover. Han leger med lys og skygge og geometriske former. Læg mærker til boldens proportioner og asymmetriske forhold til hovedet. Hans skarpe blik for hjørne til hjørne kompositioner. Han havde mange års maler træning, og hans mode billeder spandt over stilarter som, klassisk 19 århundrede illustrationer, Art Nouveau og Art Deco. Som fotograf opnåede han lige så stor magt som chefredaktøren.</p>
+                </div>
+                <div class="column">
+                    <figure><img src="img/Horst_p_Horst.jpg" alt="P. Horst Vogue cover"></figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="eksempler">
+            <h1>Eksempler</h1>
+            <div class="sectionwrapper">
+                <div class="column">
+                    <div class="top">
+                        <h2>Aleandre Liberman (1912 - 1999)</h2>
+                        <figure><img src="img/liberman.jpg">
+                            <figcaption class="billedtekst">Alexander Liberman.</figcaption>
+                        </figure>
+                        <h3>Redaktøren</h3>
+                        <p class="Paragraph_01_Brødtekst">Immigreret fra Rusland og arbejdede som reaktør manager under Condé Nast. Conde Nast var på Vogue før fotografiet blev implementeret i layotet. Nast hyrede Liberman som en assistent for Vogue's chefredaktør Mehemed Fehmy Agha</p>
+                        <h3>Middelalder krise</h3>
+                        <p class="forklaring">Han var blevet skilt og selvom han var en dygtig maler, var han altid fattig. Så da han mødte Conde Nast og flere andre fra American Magazine perioden til et selvskab, og blev tilbudt et job på Vogue som fotograf og assistent redaktør, slog ham til. Hans skarpe sans for hjørne til hjørne kompositioner og maler træning, tillod ham at lave fasion billeder hvor stilarter som 1900 tals illustrationer, Art Nouveau og Art Deco.</p>
+                        <h3>Designede gennem kameraet</h3>
+                        <p class="forklaring">Han var egentlig uddannet skulptør, men i hans grafiske arbejde var han influeret af Cuba-futisme, Surrealisme og teater design. PÅ coveret her bruger han negativt rum. Effekten er dramatisk og dragende. Man fornemmer objektet konstante øjenkontakt, mens intet tekst i kompositionen går tabt.</p>
+                    </div>
+                    <div class="bottom">
+                        <figure><img src="img/Erwin_Blumenfeld.jpg" alt="Fotograferet af Erwin Blumenfeld">
+                            <figcaption class="billedtekst">Fotograf Erwin Blumenfeld</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="top">
+                        <h2>Cipe Pineles (1908 - 1991)</h2>
+                        <figure><img src="img/cipepineles3.jpg" alt="Cipe pineles">
+                            <figcaption class="billedtekst">Cipe Pineles</figcaption>
+                        </figure>
+                        <h3>Karrierer</h3>
+                        <p class="Paragraph_01_Brødtekst">Født i Austria i 1908, Cipe Pineles fik efter Universitetet tilbudt et job på Contempora Ltd (Condé Nast publications) Her arbejdede hun for M. F. Agha, som også var Chefredaktør på Vogue, han havde en stor indflydelse på hendes arbejde.</p>
+                        <h3>Smykker som logo</h3>
+                        <p class="forklaring">Cipe pineles har ofte brugt fonts og dekoration på coveret, i en stor kaskade. Det virker noget desperat og rodet. Hun bruger ofte også den ærbære og sofistikerede kvinde som hovedindhold. Hun har leget med logoet, og dekoreret det af smykker, men Indpakningen på Vogue har dog altid været eksklusivt, hvilket kan være svært at gengive på billeder, men hvis papiret er tykt og glansfyldt, har det trods det rodede typografiske udtryk, været en del af coverets salgs teknik.</p>
+                        <h3>Sender en beked</h3>
+                        <p class="forklaring">Ser man på dette cover, er den dramatiske font i logo skåret væk. Teksten er på udvalgte steder bold...” MORE TASTE THAN MONEY”...
+                            - er det første der springer i øjet.
+                            Taljen er gjort smal, som for at signalerer Viktoriansk mode, blandet med Chanels herre dragt. Hatten er vævet af naturens siv blade, men har både vinger og et eksklusivt slør, der dækker en kvinde, der ved hvad hun vil.</p>
+                    </div>
+                    <div class="bottom">
+                        <figure><img src="img/Cipe-Pineles-paved-the-way.jpg" alt="Cipe Pineles">
+                            <figcaption class="billedtekst">Cipe Pineles 1959</figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="top">
+                        <h2>Diane Vreeland (1903 - 1989)</h2>
+                        <figure><img src="img/Diana-Vreeland-_9.jpg" alt="Raportage om Diane Vreeland og Marianne Westwood">
+                            <figcaption class="billedtekst">Diane Vreeland</figcaption>
+                        </figure>
+                        <h3>Chefredaktøren</h3>
+                        <p class="Paragraph_01_Brødtekst">Diane Vreeland startede på Vogue i 1962. Vogue har altid været inspireret af fantasi verdener, og det mantra var også meget udbredt, mens Diane Vreeland sad ved roret. At hun brugte inspiration fra specielt Østens, afspejler tendenserne i samfundet, hvor charterture blev tilgængeligt for en større gruppe af samfundet.</p>
+                        <h3>Den seksuelle revolution</h3>
+                        <p class="forklaring">Den revolution der skete i samfundet, forplantede sig også i moden. Egentligt skete det gradvist fra anden verdenskrig, fordi både kvinder og mænd, sort og hvid blev kaldt til hæren, eller hjalp til på andre måder. Da anden verdenskrig stoppede, kunne man ikke sådan bare skrue tiden tilbage, og give kvinder en kost og et forklæde på igen. Twiggy var et godt eksempel på dette.</p>
+                        <h3>Tidens strømninger</h3>
+                        <p class="forklaring">
+                            I billedet herunder bruger Diane Vreeland Twiggy's fotogene protentiale. Hun bruger stømningerne far hippiebevægelsen med blomster og farver. Produktet stiger nærmest 3 dimensionelt ud af billedet, samtidig med at hun prøver at kamoflerer øjenskyggerne som knapper. Der er ingen tvivl om, at øjenskyggerne er med i dette billede</p>
+                    </div>
+                    <div class="bottom">
+                        <figure><img src="img/Diana-Vreeland-cover-med-Twiggy-1966.jpg" alt="Diana Vreeland cover med Twiggy 1966">
+                            <figcaption class="billedtekst">Cover med Twiggy 1966</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="typografi">
+            <h1>Typografi</h1>
+            <div class="sectionwrapper">
+                <div class="column_wide">
+                    <div class="top">
+                        <div class="txt">
+                            <h3>Fonts og illustrationer</h3>
+                            <p class="Paragraph_01_Brødtekst">Afsnit, overskrifter tekst ja selv logoet var eksperimentale.</p>
+                            <p class="forklaring"> Vogue har siden Conde Nast tiden, leget med teksten og sågar også logoet. Tekst har været skrevet i smykker, snor og alverdens illustrationer. Man har mikset med fonde som Sans-serif, Futura, Lingerie, Dibot, Paris Typografi. Nogle er samlet under Vouge AG.
+                                Fonde i Logoet har været eksperimental, men de seneste mange år har man brugt LTC Bodoni 175.</p>
+                        </div>
+                        <figure class="image"><img src="img/cipe-Pineles-vogue-logo-eksperiment.jpg" alt="Covers designet af Cipe Pineles">
+                            <figcaption>
+                                <p class="billedtekst">Logo i smykker og kridt.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <hr>
+                    <div class="bottom">
+                        <div class="txt">
+                            <h3>Formerne</h3>
+                            <p class="Paragraph_01_Brødtekst">Afsnit, overskrifter tekst ja selv logoet var eksperimentale også før fotografiet.</p>
+                            <p class="forklaring">Alexander Liberman brugte ofte de geometriske former. Han brugte også meget negativt rum, hvor tomrummet fremhævede resten af kompositionen. I dette eksempel har han brugt sort siluet, til at fremhæve hans, eller mandens rolle og samspil med modellen.</p>
+                        </div>
+                        <figure class="image"><img src="img/Vogue_covers_af_Alexandr_Liberman.jpg" alt="Alexander Liberman">
+                            <figcaption>
+                                <p class="billedtekst">Alexander Liberman</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="column_narrow">
+                    <h3>Eksempel</h3>
+                    <p class="forklaring">Det handler om at sælge den nye vare på markedet. Markedet skifter og den pæne forstadsfrue her, sælger Tiffanys smykker, badet i lys og skygge. Budskabet er en traditionel jul, hvor husmoderen ikke glemmer at sende postkortet, manden ikke glemmer at købe diamanterne. Lillemor er gaven i sag selv.</p>
+                    <figure class="image"><img src="img/Christmas-1940-Helen-Bennett-wearing-Tiffany-jewels.jpg" alt="Vogue. Julen 1940">
+                        <figcaption>
+                            <p class="billedtekst">Vogue. Julen 1940</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="komposition_farver">
+            <h1>Komposition / Farver</h1>
+            <div class="sectionwrapper">
+                <div class="column_wide">
+                    <div class="colors">
+                        <div class="colors1"></div>
+                        <div class="colors2"></div>
+                        <div class="colors3"></div>
+                        <div class="colors4"></div>
+                        <div class="colors5"></div>
+                        <div class="colors6"></div>
+                        <div class="colors7"></div>
+                        <div class="colors8"></div>
+                    </div>
+                    <div class="content">
+                        <h3>Dramatiske kontraster</h3>
+                        <p class="Paragraph_01_Brødtekst">Blå og rød. Kolde og varme.</p>
+                        <p class="forklaring">Alt er tilladt på Vogue. Dog slører det budskabet sommetider når tekst formater blandes på forsiden. Ofte er det billederne der sælger varer, eller peger på logoet.</p>
+                        <h3>Skarpt og glansfyldt.</h3>
+                        <p class="forklaring">Man har altid søgt efter at cover og indhold skulle være eksklusivt. Coveret er typisk tykt papir i bedste kvalitet, så billedets skarphed kan ses og mærkes</p>
+                        <h3>Dæmpede pasteller.</h3>
+                        <p class="forklaring">Kan indeholde et dynamisk budskab. Billedet bliver brudt af uventet font, eller illustrationer.</p>
+                    </div>
+                </div>
+                <div class="column_narrow">
+                    <h3>Komposition/Layout</h3>
+                    <p class="forklaring">Vogue Magasin har igennem tiderne leget med alt. Der er både brugt asymmetriske og symetriske former. Der er brugt lys og skygge i fotos, for at fremhæve enten vare, logo eller pege på en tekst.</p>
+                    <h3>Collage og kridt</h3>
+                    <p class="forklaring">Eksempelvis har Cipe Pineles været meget asymmetrisk, men fælles for dem alle, har man søgt at drage og skabe dynamik. Mange covers har en enkelhed, hvor tomrum giver plads til at læse budskabet.</p>
+                    <figure class="image"><img src="img/Cipe_Pineles_Vogue_spred.jpg" alt="Cipe Pineles">
+                        <figcaption>
+                            <p class="billedtekst">Cipe Pineles</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section id="links">
+            <h1>Links</h1>
+            <div class="sectionwrapper">
+                <div class="content">
+                    <h3>Kilder</h3>
+                    <ul>
+                        <li><a href="https://www.vogue.de/?international" target="_blank">Vogue</a></li>
+                        <li><a href="https://www.vogue.com/article/legendary-editorial-director-alexander-libermans-influence-endures" target="_blank">Alexander Liberman</a></li>
+                        <li><a href="https://www.theguardian.com/news/1999/dec/07/guardianobituaries1" target="_blank">Artikel om Alexander Liberman's arbejde</a></li>
+                        <li><a href="https://emilychristy.wordpress.com/2014/04/06/editorial-design-a-closer-look-at-cipe-pineles-2/" target="_blank">Cipe Pineles</a></li>
+                        <li><a href="https://www.brainpickings.org/2017/10/19/leave-me-alone-with-the-recipes-cipe-pineles-book/" target="_blank">Cipe Pineles Art</a></li>
+                        <li><a href="http://the-polyglot.blogspot.com/2010/12/from-vogue-archives-scheherazaderie_08.html" target="_blank">Diane Vreeland</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Cond%C3%A9_Montrose_Nast" target="_blank">Condé Montrose Nast</a></li>
+                    </ul>
+                    <hr>
+                    <h3>Kunstnere der er associeret med American Magasin perioden</h3>
+                    <ul>
+                        <li>Alexey Brodowitch (1898 - 1971)</li>
+                        <li>Magazine Bazaar (1867 - nu)</li>
+                        <li>Joseph Binder (1805 - 1864)</li>
+                        <li>Cipe Pineles (1908 - 1991)</li>
+                        <li>Condé Montrose Nast (1873 – 1942)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="ekstra">
+            <h1>Ekstra</h1>
+            <div class="sectionwrapper">
+                <div class="content">
+                    <p class="underrubrik">George Lepape</p>
+                    <p class="forklaring">Her ses et cover fra overgangstiden i 1933, hvor illustrationerne dominerede</p>
+
+                    <div class="MyChoise1">
+                        <figure class="image"><img src="img/George_Lepape_march_1933.jpg" alt="vogue-cover-Handdrawed-logo">
+                            <figcaption>
+                                <p class="billedtekst">George Lepape illustration 1933</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class='bottomLink'>
+                <h3 class="bigVogue">Vogue</h3>
+                <a href="https://www.vogue.de/?international" target="_blank">Se mere her!</a>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footloose">
+        <a href="https://vonmohs.dk/" target="_blank"><img src="VonMohs.png" class="VonMohs" alt="VonMohs.dk"></a>
+        <a href="https://www.facebook.com/VonMohs/"><i class="fa fa-facebook-official"></i></a>
+        <a href="https://www.pinterest.dk/charlottefuchs/pins/"><i class="fa fa-pinterest-p"></i></a>
+        <a href="https://twitter.com/jazzybear1970"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/jazzybear70/"><i class="fa fa-instagram"></i></a>
+        <p class="copyright">
+            All rights reserved <a href="https://www.itgraphic.dk/" target="_blank">&copy; itgraphic</a>
+        </p>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
