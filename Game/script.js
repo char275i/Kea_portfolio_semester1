@@ -3,7 +3,7 @@ window.addEventListener("load", sidenVises);
 "use strict";
 let points = 0;
 let liv = 3;
-let timeLeft = 12;
+let timeLeft = 10;
 
 function sidenVises() {
     console.log("siden vises");
@@ -21,6 +21,7 @@ function showStart() {
     document.querySelector("#tildeGif").classList.add("show");
 
     document.querySelector("#tildeGif").classList.remove("hide");
+    document.querySelector("#tildeGif").classList.add("silly");
 
     //Fjern gameover og lavelC
     document.querySelector("#play").addEventListener("click", hideStart);
@@ -127,8 +128,8 @@ function tidenGaar() {
 function nyStone() {
     console.log("nyStone");
     this.className = "nyStone";
-    this.classList.add("stone" + Math.floor((Math.random() * 23) + 0));
-    this.classList.add("pos" + Math.floor((Math.random() * 9) + 1));
+    this.classList.add("stone" + Math.floor((Math.random() * 22) + 0));
+    this.classList.add("pos" + Math.floor((Math.random() * 11) + 1));
 }
 
 function gameStatus() {
