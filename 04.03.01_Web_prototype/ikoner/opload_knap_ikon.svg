@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74 29">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #233249;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 14px;
+        font-family: HelveticaNeue-Bold, Helvetica Neue;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Group_9" data-name="Group 9" transform="translate(-276 -841)">
+    <rect id="image" class="cls-1" width="74" height="29" transform="translate(276 841)"/>
+    <text id="OPLOAD" class="cls-2" transform="translate(313 861)"><tspan x="-29.694" y="0">OPLOAD</tspan></text>
+  </g>
+</svg>
