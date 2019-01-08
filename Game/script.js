@@ -3,7 +3,7 @@ window.addEventListener("load", sidenVises);
 "use strict";
 let points = 0;
 let liv = 3;
-let timeLeft = 10;
+let timeLeft = 12;
 
 function sidenVises() {
     console.log("siden vises");
@@ -99,10 +99,6 @@ function startGame() {
     document.querySelector("#stone21").addEventListener("animationiteration", genstartStone);
     document.querySelector("#stone22").addEventListener("animationiteration", genstartStone);
 
-    // document.querySelector("#ballon").classList.add("show");
-    //document.querySelector("#ballon").classList.remove("hide");
-
-    document.querySelector("#game").addEventListener("animationend", gameOver);
 }
 
 function genstartStone() {
