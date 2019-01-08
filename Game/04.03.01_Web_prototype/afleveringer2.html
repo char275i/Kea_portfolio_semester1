@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <title>04_03_01_web_prototype</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="afleveringer1234.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="forms.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="afleveringer-open">
+    <a href="../webPrototype.html" class="active" id="center">Portfolio-website</a>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" id="hjem"></a>
+        <div id="search-icon">
+            <form class="search">
+                <input type="search" placeholder="Search">
+            </form>
+        </div>
+        <a href="forside.html" id="hjem">Hjem</a>
+        <a href="semester.html">SEMESTER</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="deltagere.html">DELTAGERE</a>
+        <a href="beskeder.html">BESKEDER</a>
+        <a href="grupper.html">GRUPPER</a>
+        <a href="info.html">INFO</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <a href="javascript:void(0);" class="avatar" onclick="myFunction()">
+            <i class="fa fa-user-circle-o"></i>
+        </a>
+    </div>
+
+    <div class="grid-container">
+        <div id="overskrift" class="box2">
+            <h1> <img src="Backward%20arrow%20small.svg" alt="Arrow-back" width="20" height="20">
+                1. SEMESTER</h1>
+        </div>
+
+        <div id="materialer1" class="grid-item">
+            MATERIALER
+            <img src="down_arrow_small.svg" alt="downarrow" width="20" height="20">
+        </div>
+        <div id="opgavebeskrivelser1" class="grid-item">
+            OPGAVEBESKRIVELSER
+            <img src="down_arrow_small.svg" alt="downarrow" width="20" height="20">
+        </div>
+
+        <div id="afleveringer1" class="grid-item">AFLEVERINGER <img src="Up%20arrow%20small.svg" alt="uparrow" width="20" height="20"> </div>
+
+        <table>
+
+            <tr>
+                <td> <img src="Forward%20arrow%20small.svg" alt="forwardarrow" width="15" height="15"> TEMA 00 - Introuge</td>
+
+
+            </tr>
+            <tr>
+                <td><img src="Forward%20arrow%20small.svg" width="15" height="15" alt="forwardarrow"> TEMA 01 - Webdesign</td>
+
+            </tr>
+            <tr>
+                <td><img src="Forward%20arrow%20small.svg" width="15" height="15" alt="forwardarrow"> TEMA 02 - Indhold</td>
+
+            </tr>
+            <tr>
+                <td><img src="Forward%20arrow%20small.svg" alt="forwardarrow" width="15" height="15"> TEMA 03 - Animation</td>
+            </tr>
+            <tr>
+                <td><img src="Forward%20arrow%20small.svg" alt="forwardarrow" width="15" height="15"><a href="afleveringer3.html"> TEMA 04 - UX</a></td>
+            </tr>
+
+
+        </table>
+
+    </div>
+
+    <div id="footer">
+        <section id="map">
+            <div class="sectionwrapper">
+                <div class="knapholder">
+                    <form>
+                        <select name="list" id="list" accesskey="target_blank">
+                            <option value='none' selected>Find vej til KEA</option>
+                            <option value="https://goo.gl/maps/absHv6cnc8C2">Lygten 16</option>
+                            <option value="https://goo.gl/maps/4UFgbXgiw5D2">Lygten 37</option>
+                            <option value="https://goo.gl/maps/4UFgbXgiw5D2">Guldbergsgade 29</option>
+                            <option value="https://goo.gl/maps/4UFgbXgiw5D2">Prinsesse Charlottes Gade</option>
+                            <option value="https://goo.gl/maps/4UFgbXgiw5D2">Frederikkevej</option>
+                        </select>
+                        <input type=button value="Go" id="go" onclick="goToNewPage()" />
+                    </form>
+                    <div class="knap">
+                        <div class="tekst">Find vej:</div>
+                        <a href="https://goo.gl/maps/absHv6cnc8C2" target="_blank">Lygten 16</a>
+                        <a href="https://goo.gl/maps/4UFgbXgiw5D2" target="_blank">Guldbergsgade 29</a>
+                        <a href="https://goo.gl/maps/4UFgbXgiw5D2" target="_blank">Prinsesse Charlottes Gade</a>
+                        <a href="https://goo.gl/maps/4UFgbXgiw5D2" target="_blank">Lygten 37</a>
+                        <a href="https://goo.gl/maps/4UFgbXgiw5D2" target="_blank">Frederikkevej</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="sectionwrapper">
+                <div class="footer-bottom-section">
+                    <a href="https://kea.dk/" target="_blank"><img src="logo-main-black-single.png" class="footer_img" title="KEA - Københavns Erhvervsakademi" alt="KEA - Københavns Erhvervsakademi"></a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        function goToNewPage() {
+            var url = document.getElementById('list').value;
+            if (url != 'none') {
+                window.location = url;
+            }
+        }
+    </script>
+</body>
+
+</html>
