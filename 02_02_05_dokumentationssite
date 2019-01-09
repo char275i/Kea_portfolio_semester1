@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <title>03.01.04 - Link til scene, samt udvidet style tile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="activeNav">Home</a>
+        <a href="tema1.html">Tema 1 HTML</a>
+        <div class="dropdown">
+            <button class="dropbtn">Tema 2 VIDEO
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="interview.html">Interview m B-rolls</a>
+                <a href="02_02_06_redesign/index.html">Redesign af website</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Tema 3 Animation
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="sceneStiletile.html">03.01.04 - Link til scene, samt udvidet style tile</a>
+                <a href="03_Animation/index.html">Animations-spil</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Tema 4 UX
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="designSprint.html">04.02.01 – Design Sprint</a>
+                <a href="webPrototype.html">04.03.01 – Web prototype</a>
+                <a href="nativeApp.html">04.04.01 – Design Sprint: Native App</a>
+                <a href="temadokumentation.html">04.04.02 – Temadokumentation</a>
+            </div>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <!-- header end -->
+<header>
+        <nav>
+            <a href="http://martinottesen.dk/kea/02-content/02-redesign/02_02_05_dokumentationssite/koncept_ide.html">Koncept/Idé</a>
+            <a href="http://martinottesen.dk/kea/02-content/02-redesign/02_02_05_dokumentationssite/m%C3%A5lgruppe.html">Målgruppe</a>
+            <a href="http://martinottesen.dk/kea/02-content/02-redesign/02_02_05_dokumentationssite/analyse_af_eksisterende_website.html">Analyse af eksisterende website</a>
+            <a href="http://martinottesen.dk/kea/02-content/02-redesign/02_02_05_dokumentationssite/dokumentation_til_virksomhedsvideo.html">Dokumentation til virksomhedsvideo</a>
+            <a href="http://martinottesen.dk/kea/02-content/02-redesign/02_02_05_dokumentationssite/produktionsplan.html">Produktionsplan</a>
+        </nav>
+    </header>
+    <section id="medlemmer">
+        <div class="medlemmer">
+            <h1>Martin Ottesen<br>Camilla Hau Knudsen<br>Nanna Siw Friis Andreassen<br>Charlotte Fuchs</h1>
+            <h1>Gruppe 11</h1>
+
+            <a href="https://docs.google.com/document/d/1baKpXIKMllx3cD6kp6AztRCmI0XFUNhf3XIK4gXhRpg/edit?usp=sharing">Gruppekontrakt</a>
+        </div>
+
+    </section>
+
+    <section id="koncept_ide">
+        <h1>1 - Koncept/Idé</h1>
+        <p>Vi ønsker at give TCdesign en hjemmeside der viser Thomas’ 
+kompetencer inden for tømrerfaget. Thomas lægger vægt på kvalitet og 
+funktionalitet, hvilket gerne må være fremhævet. Hjemmesiden skal være 
+enkel og brugervenlig, uden forstyrrende elementer. </p>
+    </section>
+
+    <section id="målgruppe">
+        <h1>2 - Målgruppe</h1>
+        <p>TCdesign udfører alle slags tømrer opgaver. Store som små, 
+til de fleste målgrupper. Der tilbydes arbejde til private boligejere, 
+erhvervsvirksomheder samt offentlige institutioner. Geografisk er 
+TCdesign beliggende på nordsjælland, hvilket også er her målgruppen vil 
+finde sted.
+            Målgruppen kan være alt fra unge studerende, der lige er 
+flyttet hjemmefra, til det ældre ægtepar der har brug for lidt ekstra 
+styrke.
+            Målgruppens præferencer er fælles, set i forhold til 
+aldersforskellen. Der bliver lagt vægt på højt fagligt niveau i 
+udførelsen. Der bliver lagt vægt på kvalitet, funktionalitet og god 
+service.
+    </p></section>
+
+    <section id="analyse">
+        <h1>3 - Analyse</h1>
+        <div class="analyse">
+            <img src="Dokumentationssite_files/Screen%252520Shot%2525202018-10-09%252520at%25252011_002.png" alt="Analyse">
+            <img src="Dokumentationssite_files/Screen%252520Shot%2525202018-10-09%252520at%25252011_004.png" alt="Resultater">
+            <h3>5 Sek Test Resultat</h3>
+            <p>Billede af thomas er mest i øjenfaldende
+                Visitkort
+                Hvis ikke der stod tømre så var det det sidste der var blevet gættet på</p>
+            <img src="Dokumentationssite_files/Screen%2520Shot%25202018-10-09%2520at%252011.png" alt="styletile">
+            <img src="Dokumentationssite_files/Screen%252520Shot%2525202018-10-09%252520at%25252011_005.png" alt="desktop_wireframe">
+            <img src="Dokumentationssite_files/Screen%252520Shot%2525202018-10-09%252520at%25252011_006.png" alt="wireframe_mobilsite">
+            <img src="Dokumentationssite_files/Screen%252520Shot%2525202018-10-09%252520at%25252011_003.png" alt="fotostil">
+        </div>
+    </section>
+
+    <section id="dokumentation">
+        <h1>4 - Dokumentation til virksomhedsvideo</h1>
+        <div class="story">
+            <img src="Dokumentationssite_files/43586917_201850054072347_7679130701790183424_n.jfif" alt="story3">
+            <img src="Dokumentationssite_files/43471343_329213607656505_6837754300790210560_n.jfif" alt="story2">
+            <img src="Dokumentationssite_files/43433424_1937449119892710_8126639300163928064_n.jfif" alt="story1">
+        </div>
+    </section>
+
+    <section id="produktionsplan">
+        <h1>5 - Produktionsplan</h1>
+        <div class="motiver">
+            <img src="Dokumentationssite_files/Screen%2520Shot%25202018-10-15%2520at%252009.png" alt="Motiver">
+
+        </div>
+    </section>
+
+    <section id="udkast">
+        <h1>6 - Udkast til redesign</h1>
+        <h3>a - Moodboard</h3>
+        <img src="Dokumentationssite_files/Moodboard%2520redesign.jfif" alt="moodboard">
+        <h3>b - Styletile</h3>
+        <img src="Dokumentationssite_files/styletileversion2.jfif" alt="styletile">
+        <div class="wireframe">
+            <h3>c - Wireframe</h3>
+            <h3>Mobil</h3>
+            <img src="Dokumentationssite_files/IMG_5724.jfif" alt="wireframe">
+            <img src="Dokumentationssite_files/IMG_5725.jfif" alt="wireframe">
+            <img src="Dokumentationssite_files/IMG_5726.jfif" alt="wireframe">
+            <h3>Desktop</h3>
+            <img src="Dokumentationssite_files/IMG_5728.jfif" alt="desktop" rotate="90deg">
+            <img src="Dokumentationssite_files/IMG_5729.jfif" alt="desktop">
+            <img src="Dokumentationssite_files/IMG_5730.jfif" alt="desktop">
+        </div>
+        <h3>d - Layoutdiagram</h3>
+        <div class="layout">
+            <img src="Dokumentationssite_files/LD1.jfif" alt="layoutdiagram">
+            <img src="Dokumentationssite_files/LD2.jfif" alt="layoutdiagram">
+            <img src="Dokumentationssite_files/LD3.jfif" alt="layoutdiagram">
+            <img src="Dokumentationssite_files/LD4.jfif" alt="layoutdiagram">
+            <img src="Dokumentationssite_files/LD5.jfif" alt="layoutdiagram">
+            <img src="Dokumentationssite_files/LD6.jfif" alt="layoutdiagram">
+        </div>
+    </section>
+
+    <section id="kunden">
+        <h1>7 - Forberedelsesguide til kunden</h1>
+        <h3>spørgsmål</h3>
+        <p>Hvem er du?<br>
+            Hvornår startede din passion for tømrefaget?<br>
+            Hvad får dig op om morgenen?<br>
+            Hvad gør dig glad i hverdagen?<br>
+            Hvad er det vigtigste for dig i dit arbejde?<br>
+            Hvad er det vigtigste for dig generelt?<br>
+            Hvilket udtryk vil du gerne have på nettet?<br>
+            Hvad betyder dine kunder for dig?<br>
+            Hvad er din arbejdsproces?</p>
+    </section>
+    <section id="video">
+        <div class="video">
+            <h1>8 - Virksomhedsvideo</h1>
+            <video controls="controls" width="100%">
+                <source src="Dokumentationssite_files/Interview_Thomas.mp4">
+            </video>
+        </div>
+    </section>
+    <section id="stillfotos">
+        <h1>9 - Stillfotos</h1>
+        <a href="http://martinottesen.dk/kea/02-content/02-redesign/02_02_05_dokumentationssite/masonry.html">Masonry Galleri</a>
+
+        <div>
+            <img src="Dokumentationssite_files/1post.png" alt="post">
+            <img src="Dokumentationssite_files/2post.png" alt="post">
+            <img src="Dokumentationssite_files/3post.png" alt="post">
+        </div>
+    </section>
+    <section id="kodning">
+        <h1>10 - Kodning</h1>
+        <img src="Dokumentationssite_files/Screen%2520Shot%25202018-10-18%2520at%252012.png" alt="knap">
+        <img src="Dokumentationssite_files/Screen%252520Shot%2525202018-10-18%252520at%25252012_002.png" alt="knap">
+
+        <h3>html eksempel</h3>
+        <p>
+            div class="gaknap"<br>
+            a href="galleri.html"&gt;Galleri/a<br>
+            /div<br>
+        </p>
+        <h3>css eksempel</h3>
+        <p>.gaknap {<br>
+            padding: 40px;<br>
+            }<br>
+            <br>
+            .gaknap a {<br>
+            text-decoration: none;<br>
+            border: 2px solid chocolate;<br>
+            border-radius: 5px;<br>
+            padding: 8px;<br>
+            color: chocolate;<br>
+            font-size: 1.2rem<br>
+            }<br>
+            <br>
+            .gaknap a:hover {<br>
+            color: white;<br>
+            background-color: chocolate;<br>
+            }</p>
+
+    </section>
+    <section id="test">
+        <h1>11 - Testresultater</h1>
+        <h3>5 sekunders test</h3>
+        <img src="Dokumentationssite_files/Skrmbillede%25202018-10-18%2520kl.png" alt="">
+        <h3>BERT Test</h3>
+        <img src="Dokumentationssite_files/berttest2.jfif" alt="">
+    </section>
+    <section id="reflektion">
+        <h1>12 - Reflektion over processen</h1>
+        <p>Til denne opgave har vi valgt, at dele processen op i fire hovedområder der nøje kan beskrive processens udvikling.<br>
+            <br>
+            Den indledende fase er: strategi og koncept.<br>
+            Her skabte vi os overblik over virksomheden, samt definerede
+ målgruppen til TDdesign. Det gjorde vi ud fra et interview med Thomas’ 
+privat. Vi interviewede, filmede samt tog billeder.<br>
+            <br>
+            Vores formål har været, at fastholde den nuværende 
+målgruppen med et helt nyt redesign af hjemmesiden, som viser Thomas’ 
+kompetencer inden for tømrerfaget.<br>
+            <br>
+            Vi har haft stor fokus på brugervenlighed, da det skal være 
+nemt og enkelt, at surfe rundt på hjemmesiden. Ud fra interviewet med 
+Thomas’ har vi forsøgt, at fremhæve kvalitet og funktionalitet, da det 
+er nogle af hans særlige karakteristiske egenskaber som tømrer.<br>
+            <br>
+            Den følgende fase er: Design.<br>
+            <br>
+            Vi startede med lave simple wireframes, moodboards samt 
+layoutdiagrammer for det ønskede site. Ud over det samlede vi al 
+nuværende materiale sammen (herunder: noter fra interview, film samt 
+billeder)<br>
+            <br>
+            I denne fase løb vi ind i to problematikker.<br>
+            <br>
+            Under videoredigering har udstyret desværre fejlet. Det vil 
+sige, at vores eksterne lyd til videoklippet ikke blev optaget under 
+interviewet. Det har medført, at videoen desværre ikke lever op til 
+vores ønsket resultat.
+            Ud over det, er vores stillfotos blevet en del slørret, da 
+vi ikke har set der sad snavs på linsen.
+            <br>
+            Næste fase er udvikling og test.<br>
+            <br>
+            Her skal idéer og tanker til virkelighed. Denne del bestod primært af kodning og konfiguering.
+            Vi fulgte vores wireframes og layoutdiagram nøje, så vi endte op med det ønskede site.<br>
+            <br>
+            Vi har prøvet så vidt muligt, at rette op på lyden til filmen, samt redigering af billederne.
+            Det er markante fejl, så et nyt interview havde nok være foretrukket. </p>
+    </section>
+    <section id="lantkode">
+        <h1>13 - Lånt Kode</h1>
+        <p>Vi har taget kode fra<a href="https://codepen.io/erlenmasson/pen/azVZXQ/">Codepen</a>til
+ at lave vores kontakt form på hjemmesiden. Efter den er blevet 
+implementeret har vi ændret farver og fået den til at passe til vores 
+site.</p>
+    </section>
+    <section id="git">
+        <h1>14 - Git Historik</h1>
+        <img src="Dokumentationssite_files/Screen%2520Shot%25202018-10-18%2520at%252013.png" alt="git">
+    </section>
+    <!-- Footer -->
+    <footer class="footloose">
+        <a href="https://vonmohs.dk/" target="_blank"><img src="VonMohs.png" class="VonMohs" alt="VonMohs.dk"></a>
+        <a href="https://www.facebook.com/VonMohs/"><i class="fa fa-facebook-official"></i></a>
+        <a href="https://www.pinterest.dk/charlottefuchs/pins/"><i class="fa fa-pinterest-p"></i></a>
+        <a href="https://twitter.com/jazzybear1970"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/jazzybear70/"><i class="fa fa-instagram"></i></a>
+        <p class="copyright">
+            All rights reserved <a href="https://www.itgraphic.dk/" target="_blank">&copy; itgraphic</a>
+        </p>
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
