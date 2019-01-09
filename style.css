@@ -45,23 +45,6 @@ iframe {
     margin: 0 auto;
 
 }
-@media screen and (max-width: 850px) {
-    #sidebarContent {
-        display: none !important;
-    }
-    #toolbarViewerLeft {
-    display: none !important;
-}
-    #thumbnailView {
-    display: none !important;
-}
-    #outerContainer.sidebarMoving #sidebarContainer, #outerContainer.sidebarOpen #sidebarContainer {
-    display: none !important;
-}
-    #pdf{
-        max-height: 100px;
-    }
-}
 
 #typografi .column_wide .txt {
     flex-basis: 200px;
@@ -476,7 +459,7 @@ footer {
 .footloose {
     background-color: #000;
     padding-top: 3em;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     color: white;
 }
 

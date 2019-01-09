@@ -383,7 +383,25 @@ img {
 #om figure {
     border: 0.7rem solid #456cae;
 }
+.mindre figure{
+    max-width: 70%;
+}
+/*********** Tema1 ***************/
+#omo {
+    background-color: #fff;
+}
 
+#omo .column {
+    flex-basis: 400PX;
+    flex-grow: 1;
+    margin: 20px;
+    padding-bottom: 5px;
+}
+
+#omo figure {
+    border: 0.7rem solid #456cae;
+    max-width: 80%;
+}
 /************* Eksempler ************************/
 
 #eksempler {
